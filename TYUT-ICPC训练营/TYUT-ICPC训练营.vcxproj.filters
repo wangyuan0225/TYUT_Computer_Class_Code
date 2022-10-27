@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1A复习时间.c">
+    <ClCompile Include="1.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
