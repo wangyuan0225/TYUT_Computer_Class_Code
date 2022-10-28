@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
+
 //A复习时间
 //int main()
 //{
@@ -83,28 +84,137 @@
 
 
 //D两军交锋
-int main()
+//int main()
+//{
+//	int T;
+//	scanf("%d", &T);
+//	float w[4];
+//	float* p = w;
+//	float result[99];
+//	for (int i = 0; i < T; i++)
+//	{
+//		for (int j = 0; j < 4; j++)
+//		{
+//			scanf("%f", &w[j]);
+//		}
+//		//for (int j = 0; j < 4; j++)
+//		//{
+//		//	printf("%.3f \n", w[j]);
+//		//}
+//		result[i] = w[3] / (w[0] + w[1]) * w[2];
+//	}
+//	for (int i = 0; i < T; i++)
+//	{
+//		printf("%.3f ", result[i]);
+//	}
+//	return 0;
+//}
+
+
+
+
+//E做一个正气的杭电人
+//int main()
+//{
+//	int T;
+//	scanf("%d", &T);
+//	int num [9] ;
+//	for (int i = 0; i < T; i++)
+//	{
+//		scanf("%d", &num[i]);
+//
+//	}
+//	for (int i = 0; i < num[i]; i++)
+//	{
+//		for (int j = 0; j < 3*num[i]; j++)
+//		{
+//			for (int p = 0; p < num[i]; p++)
+//			{
+//				printf("HDU");
+//			}
+//			printf("\n");
+//		}
+//	}
+//	return 0;
+//}
+
+
+
+//F竹青遍野
+//#include <math.h>
+//int main()
+//{
+//	int t, p = 0;
+//	int num[99];
+//	int result[99];
+//	scanf("%d", &t);
+//	for (int i = 0; i < t; i++)
+//	{
+//		scanf("%d", &num[i]);
+//		for (int a = 0;; a++)
+//		{
+//			int all = 0;
+//			all += pow(a, 3);
+//			if (num[i] >= all && num[i] <= all + pow(a + 1, 3))
+//			{
+//				result[i] = a;
+//				break;
+//			}
+//		}
+//	}
+//	for (int i = 0; i < t; i++)
+//	{
+//		printf("%d\n", result[i] + 1);
+//	}
+//	return 0;
+//}
+
+
+
+
+//G菜鸟先飞
+//int main()
+//{
+//	int T;
+//	scanf("%d", &T);
+//	int time[99];
+//	int result[99];
+//	for (int i = 0; i < T; i++)
+//	{
+//		scanf("%d", &time[i]);
+//		result[i] = time[i];
+//		for (int j = 0; j < time[i]; j++)
+//		{
+//			result[i] += 2 * j;
+//		}
+//	}
+//	for (int i = 0; i < T; i++)
+//	{
+//		printf("%d\n", result[i]);
+//	}
+//	return 0;
+//}
+
+
+
+//H奇偶位互换
+int  main()
 {
-	int T;
-	scanf("%d", &T);
-	float w[4];
-	float* p = w;
-	float result[99];
-	for (int i = 0; i < T; i++)
+	int C;
+	scanf("%d", &C);
+	
+	for (int i = 0; i < C; i++)
 	{
-		for (int j = 0; j < 4; j++)
+		char arr[99][99];
+		scanf("%d", arr);
+		for (int j = 0; j < C; j += 2)
 		{
-			scanf("%f", &w[j]);
+			char tmp;
+			tmp = *arr + j;
+			*(arr + j) = *arr + j + 1;
+			*(arr + j + 1) = tmp;
 		}
-		//for (int j = 0; j < 4; j++)
-		//{
-		//	printf("%.3f \n", w[j]);
-		//}
-		result[i] = w[3] / (w[0] + w[1]) * w[2];
 	}
-	for (int i = 0; i < T; i++)
-	{
-		printf("%.3f ", result[i]);
-	}
+	printf("%c", arr);
 	return 0;
 }

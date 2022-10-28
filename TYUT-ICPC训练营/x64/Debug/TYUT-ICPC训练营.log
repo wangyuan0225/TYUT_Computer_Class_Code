@@ -1,2 +1,6 @@
-﻿  1A复习时间.c
+﻿  1.c
+D:\C++文档\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(209,9): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“char *”
+D:\C++文档\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(209,9): message : 请考虑在格式字符串中使用“%hhd”
+D:\C++文档\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(218,9): warning C4477: “printf”: 格式字符串“%c”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+D:\C++文档\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(218,9): warning C4313: "printf": 格式字符串中的 "%c" 与类型为 "char *" 的参数 1 冲突
   TYUT-ICPC训练营.vcxproj -> D:\C++文档\TYUT_Computer_Class_Code\TYUT-ICPC训练营\x64\Debug\TYUT-ICPC训练营.exe
