@@ -197,25 +197,28 @@
 
 
 
+
 //H∆Ê≈ºŒªª•ªª
 //int  main()
 //{
 //	int C;
 //	scanf("%d", &C);
-//	
+//	char arr[99][99];
 //	for (int i = 0; i < C; i++)
 //	{
-//		char arr[99];
-//		scanf("%d", arr);
-//		for (int j = 0; j < C; j += 2)
+//		scanf("%s", arr[i]);
+//		for (int j = 0; j < strlen(arr[i]); j += 2)
 //		{
 //			char tmp;
-//			tmp = *arr + j;
-//			*(arr + j) = *arr + j + 1;
-//			*(arr + j + 1) = tmp;
+//			tmp = arr[i][j + 1];
+//			arr[i][j + 1] = arr[i][j];
+//			arr[i][j] = tmp;
 //		}
 //	}
-//	printf("%s", arr);
+//	for (int i = 0; i < C; i++)
+//	{
+//		printf("%s\n", arr[i]);
+//	}
 //	return 0;
 //}
 
