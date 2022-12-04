@@ -1,2 +1,5 @@
-﻿  2.c
+﻿  1.c
+D:\C&Java\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(235,2): warning C4013: “gets”未定义；假设外部返回 int
+D:\C&Java\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(251,8): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+D:\C&Java\TYUT_Computer_Class_Code\TYUT-ICPC训练营\1.c(238,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   TYUT-ICPC训练营.vcxproj -> D:\C&Java\TYUT_Computer_Class_Code\TYUT-ICPC训练营\x64\Debug\TYUT-ICPC训练营.exe
