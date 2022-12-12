@@ -222,34 +222,34 @@
 //	return 0;
 //}
 
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-	char str[99];//定义母串
-	char son[99];//定义子串
-	int num = 0;
-	int i = 0, all = 0;
-	int j = 0;
-	printf("请输入一个字符串\n");
-	gets(str);
-	printf("请输入一个子串\n");
-	gets(son);
-	int lenson = strlen(son);//定义子串长度
-	for (i = 0; (i < lenson)
-		&& ((i + strlen(son)) <= strlen(str)); i++, num = 0, lenson++) {//按子串长度循环遍历母串，设子串长度为3，则母串下标为012 123 234 以此类推
-		for (j = 0; j < strlen(son); i++, j++) {//遍历子串
-			if (*(str + i) == *(son + j))//子串字符与母串字符相等
-
-			{
-				num++;//相等个数加一
-			}
-		}
-		if (num == strlen(son)) {//若相等个数等于子串长度，则与子串完全等同
-			all++;//出现次数加一
-		}
-		i -= strlen(son);//回复i值
-	}
-	printf("该子串共出现了%d次\n", all);
-	return 0;
-}
+//#include <stdio.h>
+//#include <string.h>
+//
+//int main() {
+//	char str[99];//定义母串
+//	char son[99];//定义子串
+//	int num = 0;
+//	int i = 0, all = 0;
+//	int j = 0;
+//	printf("请输入一个字符串\n");
+//	gets(str);
+//	printf("请输入一个子串\n");
+//	gets(son);
+//	int lenson = strlen(son);//定义子串长度
+//	for (i = 0; (i < lenson)
+//		&& ((i + strlen(son)) <= strlen(str)); i++, num = 0, lenson++) {//按子串长度循环遍历母串，设子串长度为3，则母串下标为012 123 234 以此类推
+//		for (j = 0; j < strlen(son); i++, j++) {//遍历子串
+//			if (*(str + i) == *(son + j))//子串字符与母串字符相等
+//
+//			{
+//				num++;//相等个数加一
+//			}
+//		}
+//		if (num == strlen(son)) {//若相等个数等于子串长度，则与子串完全等同
+//			all++;//出现次数加一
+//		}
+//		i -= strlen(son);//回复i值
+//	}
+//	printf("该子串共出现了%d次\n", all);
+//	return 0;
+//}
