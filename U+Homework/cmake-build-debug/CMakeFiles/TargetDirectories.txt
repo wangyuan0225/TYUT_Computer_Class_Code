@@ -1,0 +1,3 @@
+D:/C&Java/TYUT_Computer_Class_Code/U+Homework/cmake-build-debug/CMakeFiles/homework.c.dir
+D:/C&Java/TYUT_Computer_Class_Code/U+Homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C&Java/TYUT_Computer_Class_Code/U+Homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir

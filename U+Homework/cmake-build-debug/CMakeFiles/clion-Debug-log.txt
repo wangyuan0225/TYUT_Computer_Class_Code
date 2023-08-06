@@ -1,0 +1,13 @@
+"D:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\C&Java\TYUT_Computer_Class_Code\U+Homework -B D:\C&Java\TYUT_Computer_Class_Code\U+Homework\cmake-build-debug
+-- Configuring done
+CMake Error at CMakeLists.txt:12 (add_executable):
+  Cannot find source file:
+
+    ../../../test.cpp
+
+
+CMake Error at CMakeLists.txt:12 (add_executable):
+  No SOURCES given to target: homework.c
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
