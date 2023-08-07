@@ -1,0 +1,3 @@
+D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1222.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
