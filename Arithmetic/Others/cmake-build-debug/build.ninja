@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Hanoi_Tower.c
+# Object build statements for EXECUTABLE target Hanoi_Tower.cpp
 
 
 #############################################
-# Order-only phony target for Hanoi_Tower.c
+# Order-only phony target for Hanoi_Tower.cpp
 
-build cmake_object_order_depends_target_Hanoi_Tower.c: phony || CMakeFiles/Hanoi_Tower.c.dir
+build cmake_object_order_depends_target_Hanoi_Tower.cpp: phony || CMakeFiles/Hanoi_Tower.cpp.dir
 
-build CMakeFiles/Hanoi_Tower.c.dir/Hanoi_Tower.c.obj: C_COMPILER__Hanoi_Tower.2ec_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/Hanoi_Tower.c || cmake_object_order_depends_target_Hanoi_Tower.c
-  DEP_FILE = CMakeFiles\Hanoi_Tower.c.dir\Hanoi_Tower.c.obj.d
-  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Hanoi_Tower.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\Hanoi_Tower.c.dir
+build CMakeFiles/Hanoi_Tower.cpp.dir/Hanoi_Tower.cpp.obj: CXX_COMPILER__Hanoi_Tower.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/Hanoi_Tower.cpp || cmake_object_order_depends_target_Hanoi_Tower.cpp
+  DEP_FILE = CMakeFiles\Hanoi_Tower.cpp.dir\Hanoi_Tower.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Hanoi_Tower.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\Hanoi_Tower.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Hanoi_Tower.c
+# Link build statements for EXECUTABLE target Hanoi_Tower.cpp
 
 
 #############################################
-# Link the executable Hanoi_Tower.c.exe
+# Link the executable Hanoi_Tower.cpp.exe
 
-build Hanoi_Tower.c.exe: C_EXECUTABLE_LINKER__Hanoi_Tower.2ec_Debug CMakeFiles/Hanoi_Tower.c.dir/Hanoi_Tower.c.obj
+build Hanoi_Tower.cpp.exe: CXX_EXECUTABLE_LINKER__Hanoi_Tower.2ecpp_Debug CMakeFiles/Hanoi_Tower.cpp.dir/Hanoi_Tower.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Hanoi_Tower.c.dir
+  OBJECT_DIR = CMakeFiles\Hanoi_Tower.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Hanoi_Tower.c.exe
-  TARGET_IMPLIB = libHanoi_Tower.c.dll.a
-  TARGET_PDB = Hanoi_Tower.c.exe.dbg
+  TARGET_FILE = Hanoi_Tower.cpp.exe
+  TARGET_IMPLIB = libHanoi_Tower.cpp.dll.a
+  TARGET_PDB = Hanoi_Tower.cpp.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Hanoi_Tower.c: phony Hanoi_Tower.c.exe
+build Hanoi_Tower.cpp: phony Hanoi_Tower.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build Hanoi_Tower.c: phony Hanoi_Tower.c.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug
 
-build all: phony Hanoi_Tower.c.exe
+build all: phony Hanoi_Tower.cpp.exe
 
 # =============================================================================
 # Built-in targets
