@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Expression_Value.cpp
+
+
+#############################################
+# Order-only phony target for Expression_Value.cpp
+
+build cmake_object_order_depends_target_Expression_Value.cpp: phony || CMakeFiles/Expression_Value.cpp.dir
+
+build CMakeFiles/Expression_Value.cpp.dir/Expression_Value.cpp.obj: CXX_COMPILER__Expression_Value.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/Expression_Value.cpp || cmake_object_order_depends_target_Expression_Value.cpp
+  DEP_FILE = CMakeFiles\Expression_Value.cpp.dir\Expression_Value.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Expression_Value.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\Expression_Value.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Expression_Value.cpp
+
+
+#############################################
+# Link the executable Expression_Value.cpp.exe
+
+build Expression_Value.cpp.exe: CXX_EXECUTABLE_LINKER__Expression_Value.2ecpp_Debug CMakeFiles/Expression_Value.cpp.dir/Expression_Value.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Expression_Value.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Expression_Value.cpp.exe
+  TARGET_IMPLIB = libExpression_Value.cpp.dll.a
+  TARGET_PDB = Expression_Value.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Hanoi_Tower.cpp
 
 
@@ -73,6 +106,39 @@ build Hanoi_Tower.cpp.exe: CXX_EXECUTABLE_LINKER__Hanoi_Tower.2ecpp_Debug CMakeF
   TARGET_IMPLIB = libHanoi_Tower.cpp.dll.a
   TARGET_PDB = Hanoi_Tower.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target N_Queens_Problem.cpp
+
+
+#############################################
+# Order-only phony target for N_Queens_Problem.cpp
+
+build cmake_object_order_depends_target_N_Queens_Problem.cpp: phony || CMakeFiles/N_Queens_Problem.cpp.dir
+
+build CMakeFiles/N_Queens_Problem.cpp.dir/N_Queens_Problem.cpp.obj: CXX_COMPILER__N_Queens_Problem.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/N_Queens_Problem.cpp || cmake_object_order_depends_target_N_Queens_Problem.cpp
+  DEP_FILE = CMakeFiles\N_Queens_Problem.cpp.dir\N_Queens_Problem.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\N_Queens_Problem.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\N_Queens_Problem.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target N_Queens_Problem.cpp
+
+
+#############################################
+# Link the executable N_Queens_Problem.cpp.exe
+
+build N_Queens_Problem.cpp.exe: CXX_EXECUTABLE_LINKER__N_Queens_Problem.2ecpp_Debug CMakeFiles/N_Queens_Problem.cpp.dir/N_Queens_Problem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\N_Queens_Problem.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = N_Queens_Problem.cpp.exe
+  TARGET_IMPLIB = libN_Queens_Problem.cpp.dll.a
+  TARGET_PDB = N_Queens_Problem.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -99,7 +165,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Expression_Value.cpp: phony Expression_Value.cpp.exe
+
 build Hanoi_Tower.cpp: phony Hanoi_Tower.cpp.exe
+
+build N_Queens_Problem.cpp: phony N_Queens_Problem.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +179,7 @@ build Hanoi_Tower.cpp: phony Hanoi_Tower.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug
 
-build all: phony Hanoi_Tower.cpp.exe
+build all: phony Expression_Value.cpp.exe Hanoi_Tower.cpp.exe N_Queens_Problem.cpp.exe
 
 # =============================================================================
 # Built-in targets
