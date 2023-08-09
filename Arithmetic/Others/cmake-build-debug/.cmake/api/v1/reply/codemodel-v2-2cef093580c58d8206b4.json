@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "Others",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -38,9 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "Expression_Value.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Expression_Value.cpp-Debug-6bd3658ded1de5b82c78.json",
+					"name" : "Expression_Value.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "Hanoi_Tower.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Hanoi_Tower.cpp-Debug-20a310d32356da1bfaff.json",
 					"name" : "Hanoi_Tower.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "N_Queens_Problem.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-N_Queens_Problem.cpp-Debug-7ef7c3632771c6e17933.json",
+					"name" : "N_Queens_Problem.cpp",
 					"projectIndex" : 0
 				}
 			]
