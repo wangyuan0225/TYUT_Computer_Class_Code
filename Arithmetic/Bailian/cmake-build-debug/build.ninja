@@ -74,6 +74,39 @@ build 2694.cpp.exe: CXX_EXECUTABLE_LINKER__2694.2ecpp_Debug CMakeFiles/2694.cpp.
   TARGET_PDB = 2694.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 2787.cpp
+
+
+#############################################
+# Order-only phony target for 2787.cpp
+
+build cmake_object_order_depends_target_2787.cpp: phony || CMakeFiles/2787.cpp.dir
+
+build CMakeFiles/2787.cpp.dir/2787.cpp.obj: CXX_COMPILER__2787.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Bailian/2787.cpp || cmake_object_order_depends_target_2787.cpp
+  DEP_FILE = CMakeFiles\2787.cpp.dir\2787.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2787.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\2787.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2787.cpp
+
+
+#############################################
+# Link the executable 2787.cpp.exe
+
+build 2787.cpp.exe: CXX_EXECUTABLE_LINKER__2787.2ecpp_Debug CMakeFiles/2787.cpp.dir/2787.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2787.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2787.cpp.exe
+  TARGET_IMPLIB = lib2787.cpp.dll.a
+  TARGET_PDB = 2787.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 4017.cpp
 
 
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 2694.cpp: phony 2694.cpp.exe
 
+build 2787.cpp: phony 2787.cpp.exe
+
 build 4017.cpp: phony 4017.cpp.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build 4017.cpp: phony 4017.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Bailian/cmake-build-debug
 
-build all: phony 2694.cpp.exe 4017.cpp.exe
+build all: phony 2694.cpp.exe 2787.cpp.exe 4017.cpp.exe
 
 # =============================================================================
 # Built-in targets
