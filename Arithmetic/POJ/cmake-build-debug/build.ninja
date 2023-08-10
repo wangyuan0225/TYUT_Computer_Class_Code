@@ -73,6 +73,39 @@ build 1222.cpp.exe: CXX_EXECUTABLE_LINKER__1222.2ecpp_Debug CMakeFiles/1222.cpp.
   TARGET_IMPLIB = lib1222.cpp.dll.a
   TARGET_PDB = 1222.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1664.cpp
+
+
+#############################################
+# Order-only phony target for 1664.cpp
+
+build cmake_object_order_depends_target_1664.cpp: phony || CMakeFiles/1664.cpp.dir
+
+build CMakeFiles/1664.cpp.dir/1664.cpp.obj: CXX_COMPILER__1664.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/1664.cpp || cmake_object_order_depends_target_1664.cpp
+  DEP_FILE = CMakeFiles\1664.cpp.dir\1664.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1664.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\1664.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1664.cpp
+
+
+#############################################
+# Link the executable 1664.cpp.exe
+
+build 1664.cpp.exe: CXX_EXECUTABLE_LINKER__1664.2ecpp_Debug CMakeFiles/1664.cpp.dir/1664.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1664.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1664.cpp.exe
+  TARGET_IMPLIB = lib1664.cpp.dll.a
+  TARGET_PDB = 1664.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1222.cpp: phony 1222.cpp.exe
 
+build 1664.cpp: phony 1664.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build 1222.cpp: phony 1222.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug
 
-build all: phony 1222.cpp.exe
+build all: phony 1222.cpp.exe 1664.cpp.exe
 
 # =============================================================================
 # Built-in targets

@@ -73,6 +73,39 @@ build 2694.cpp.exe: CXX_EXECUTABLE_LINKER__2694.2ecpp_Debug CMakeFiles/2694.cpp.
   TARGET_IMPLIB = lib2694.cpp.dll.a
   TARGET_PDB = 2694.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4017.cpp
+
+
+#############################################
+# Order-only phony target for 4017.cpp
+
+build cmake_object_order_depends_target_4017.cpp: phony || CMakeFiles/4017.cpp.dir
+
+build CMakeFiles/4017.cpp.dir/4017.cpp.obj: CXX_COMPILER__4017.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Bailian/4017.cpp || cmake_object_order_depends_target_4017.cpp
+  DEP_FILE = CMakeFiles\4017.cpp.dir\4017.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4017.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\4017.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4017.cpp
+
+
+#############################################
+# Link the executable 4017.cpp.exe
+
+build 4017.cpp.exe: CXX_EXECUTABLE_LINKER__4017.2ecpp_Debug CMakeFiles/4017.cpp.dir/4017.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4017.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4017.cpp.exe
+  TARGET_IMPLIB = lib4017.cpp.dll.a
+  TARGET_PDB = 4017.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 2694.cpp: phony 2694.cpp.exe
 
+build 4017.cpp: phony 4017.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build 2694.cpp: phony 2694.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Bailian/cmake-build-debug
 
-build all: phony 2694.cpp.exe
+build all: phony 2694.cpp.exe 4017.cpp.exe
 
 # =============================================================================
 # Built-in targets
