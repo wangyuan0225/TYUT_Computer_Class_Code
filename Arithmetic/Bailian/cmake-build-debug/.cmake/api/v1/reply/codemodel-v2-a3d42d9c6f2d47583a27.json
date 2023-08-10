@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "2694.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2694.cpp-Debug-83d3ae87bd78f862acfe.json",
 					"name" : "2694.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2787.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2787.cpp-Debug-99b3dcdcacd125e55b6a.json",
+					"name" : "2787.cpp",
 					"projectIndex" : 0
 				},
 				{
