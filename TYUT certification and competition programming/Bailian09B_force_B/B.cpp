@@ -1,7 +1,7 @@
 /**
- * @BelongsProject: POJ
+ * @BelongsProject: Bailian09B_force_B
  * @Author: yuan wang
- * @CreateTime: 2023-08-07  10:11
+ * @CreateTime: 2023-08-13  11:41
  * @Description: TODO
  * @Version: 1.0
  */
@@ -52,7 +52,6 @@ void FlipBit(char & c, int i) {
  * @param result
  */
 void OutputResult(int t, char result[]) {
-    cout << "PUZZLE #" << t << endl;
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 6; ++j) {
             cout << GetBit(result[i], j);
@@ -67,13 +66,12 @@ void OutputResult(int t, char result[]) {
 /**
  * @description: 熄灯问题
  * @author: yuan wang
- * @date: 2023/08/07 10:11
+ * @date: 2023/08/13 11:41
  * @param: null
  * @return: null
  */
 int main() {
-    int T;
-    cin >> T;
+    int T = 1;
     for (int t = 1; t <= T; ++t) {
         for (int i = 0; i < 5; ++i) {
             for (int j = 0; j < 6; ++j) {
