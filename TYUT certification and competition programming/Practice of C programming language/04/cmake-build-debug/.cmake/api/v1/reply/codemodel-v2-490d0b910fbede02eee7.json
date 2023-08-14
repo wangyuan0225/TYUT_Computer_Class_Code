@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "04",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "A.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-A.cpp-Debug-92cb1fde17dff1671714.json",
+					"name" : "A.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "B.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-B.cpp-Debug-7a892780a7c23f77734b.json",
+					"name" : "B.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C.cpp-Debug-aff50525ae8d7d803dfb.json",
+					"name" : "C.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "H.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-H.cpp-Debug-a42266e40745d74395fb.json",
+					"name" : "H.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/04/cmake-build-debug",
+		"source" : "D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/04"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
