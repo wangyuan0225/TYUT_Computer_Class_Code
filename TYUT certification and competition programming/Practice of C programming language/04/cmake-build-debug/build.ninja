@@ -206,6 +206,72 @@ build E.cpp.exe: CXX_EXECUTABLE_LINKER__E.2ecpp_Debug CMakeFiles/E.cpp.dir/E.cpp
   TARGET_PDB = E.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target F.cpp
+
+
+#############################################
+# Order-only phony target for F.cpp
+
+build cmake_object_order_depends_target_F.cpp: phony || CMakeFiles/F.cpp.dir
+
+build CMakeFiles/F.cpp.dir/F.cpp.obj: CXX_COMPILER__F.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Practice$ of$ C$ programming$ language/04/F.cpp || cmake_object_order_depends_target_F.cpp
+  DEP_FILE = CMakeFiles\F.cpp.dir\F.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\F.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\F.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target F.cpp
+
+
+#############################################
+# Link the executable F.cpp.exe
+
+build F.cpp.exe: CXX_EXECUTABLE_LINKER__F.2ecpp_Debug CMakeFiles/F.cpp.dir/F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\F.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = F.cpp.exe
+  TARGET_IMPLIB = libF.cpp.dll.a
+  TARGET_PDB = F.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target G.cpp
+
+
+#############################################
+# Order-only phony target for G.cpp
+
+build cmake_object_order_depends_target_G.cpp: phony || CMakeFiles/G.cpp.dir
+
+build CMakeFiles/G.cpp.dir/G.cpp.obj: CXX_COMPILER__G.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Practice$ of$ C$ programming$ language/04/G.cpp || cmake_object_order_depends_target_G.cpp
+  DEP_FILE = CMakeFiles\G.cpp.dir\G.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\G.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\G.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target G.cpp
+
+
+#############################################
+# Link the executable G.cpp.exe
+
+build G.cpp.exe: CXX_EXECUTABLE_LINKER__G.2ecpp_Debug CMakeFiles/G.cpp.dir/G.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\G.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = G.cpp.exe
+  TARGET_IMPLIB = libG.cpp.dll.a
+  TARGET_PDB = G.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target H.cpp
 
 
@@ -237,6 +303,39 @@ build H.cpp.exe: CXX_EXECUTABLE_LINKER__H.2ecpp_Debug CMakeFiles/H.cpp.dir/H.cpp
   TARGET_FILE = H.cpp.exe
   TARGET_IMPLIB = libH.cpp.dll.a
   TARGET_PDB = H.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target I.cpp
+
+
+#############################################
+# Order-only phony target for I.cpp
+
+build cmake_object_order_depends_target_I.cpp: phony || CMakeFiles/I.cpp.dir
+
+build CMakeFiles/I.cpp.dir/I.cpp.obj: CXX_COMPILER__I.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Practice$ of$ C$ programming$ language/04/I.cpp || cmake_object_order_depends_target_I.cpp
+  DEP_FILE = CMakeFiles\I.cpp.dir\I.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\I.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\I.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target I.cpp
+
+
+#############################################
+# Link the executable I.cpp.exe
+
+build I.cpp.exe: CXX_EXECUTABLE_LINKER__I.2ecpp_Debug CMakeFiles/I.cpp.dir/I.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\I.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = I.cpp.exe
+  TARGET_IMPLIB = libI.cpp.dll.a
+  TARGET_PDB = I.cpp.exe.dbg
 
 
 #############################################
@@ -274,7 +373,13 @@ build D.cpp: phony D.cpp.exe
 
 build E.cpp: phony E.cpp.exe
 
+build F.cpp: phony F.cpp.exe
+
+build G.cpp: phony G.cpp.exe
+
 build H.cpp: phony H.cpp.exe
+
+build I.cpp: phony I.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -284,7 +389,7 @@ build H.cpp: phony H.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/04/cmake-build-debug
 
-build all: phony A.cpp.exe B.cpp.exe C.cpp.exe D.cpp.exe E.cpp.exe H.cpp.exe
+build all: phony A.cpp.exe B.cpp.exe C.cpp.exe D.cpp.exe E.cpp.exe F.cpp.exe G.cpp.exe H.cpp.exe I.cpp.exe
 
 # =============================================================================
 # Built-in targets

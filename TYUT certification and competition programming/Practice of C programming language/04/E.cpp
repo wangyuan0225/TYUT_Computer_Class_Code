@@ -20,13 +20,14 @@ using namespace std;
 int main() {
     int n;
     while (cin >> n) {
-        int *arr = new int[n];
+        unsigned long long int *arr = new unsigned long long int[n];
         cin >> arr[0];
         if (n == 1) {
             cout << arr[0] << endl;
             continue;
         } else {
-            int max = arr[0], sum = arr[0];
+            int max = arr[0];
+            unsigned long long sum = arr[0];
             for (int i = 1; i < n; ++i) {
                 cin >> arr[i];
                 if (arr[i] > max) {
