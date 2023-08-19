@@ -9,6 +9,10 @@
 #include <iostream>
 using namespace std;
 
+void arrangeRight(int k) {
+
+}
+
 /**
  * @description: 输出前 k 大的数
  * @author: yuan wang
