@@ -7,10 +7,59 @@
  */
 
 #include <iostream>
+
 using namespace std;
 
-void arrangeRight(int k) {
+void swap(int &a, int &b) {
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
 
+void arrangeRight(int *a, int s, int e, int k) {
+    if (s >= e) {
+        return;
+    }
+    int key = a[s];
+    int i = s, j = e;
+    while (i != j) {
+        while (j > i && a[j] >= key) {
+            --j;
+        }
+        swap(a[i], a[j]);
+        while (i < j && a[i] <= key) {
+            ++i;
+        }
+        swap(a[i], a[j]);
+    }
+    int right_length = e - i + 1;
+    if (right_length == k) {
+        return;
+    } else if (right_length > k) {
+        arrangeRight(a, i + 1, e, k);
+    } else {
+        arrangeRight(a, s, i - 1, k - right_length);
+    }
+}
+
+void QuickSort(int a[], int s, int e) {
+    if (s >= e) {
+        return;
+    }
+    int k = a[s];
+    int i = s, j = e;
+    while (i != j) {
+        while (j > i && a[j] >= k) {
+            --j;
+        }
+        swap(a[i], a[j]);//经过奇数次交换
+        while (i < j && a[i] <= k) {
+            ++i;
+        }
+        swap(a[i], a[j]);//经过偶数次交换
+    }//处理完后，a[i] = k
+    QuickSort(a, s, i - 1);
+    QuickSort(a, i + 1, e);
 }
 
 /**
@@ -21,6 +70,18 @@ void arrangeRight(int k) {
  * @return: null
  */
 int main() {
-
+    int n, k;
+    cin >> n;
+    int *arr = new int[n];
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
+    }
+    cin >> k;
+    arrangeRight(arr, 0, n - 1, k);
+    QuickSort(arr, n - k, n - 1);
+    for (int i = n - 1; i >= n - k; --i) {
+        cout << arr[i] << endl;
+    }
+    delete[]arr;
     return 0;
 }

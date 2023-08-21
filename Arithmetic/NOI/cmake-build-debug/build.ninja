@@ -73,6 +73,39 @@ build 7617.cpp.exe: CXX_EXECUTABLE_LINKER__7617.2ecpp_Debug CMakeFiles/7617.cpp.
   TARGET_IMPLIB = lib7617.cpp.dll.a
   TARGET_PDB = 7617.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Order-only phony target for test.cpp
+
+build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
+
+build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/NOI/test.cpp || cmake_object_order_depends_target_test.cpp
+  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Link the executable test.cpp.exe
+
+build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.cpp.exe
+  TARGET_IMPLIB = libtest.cpp.dll.a
+  TARGET_PDB = test.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 7617.cpp: phony 7617.cpp.exe
 
+build test.cpp: phony test.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build 7617.cpp: phony 7617.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/NOI/cmake-build-debug
 
-build all: phony 7617.cpp.exe
+build all: phony 7617.cpp.exe test.cpp.exe
 
 # =============================================================================
 # Built-in targets
