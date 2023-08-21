@@ -32,12 +32,13 @@ void arrangeRight(int *a, int s, int e, int k) {
         }
         swap(a[i], a[j]);
     }
-    if (i == k) {
+    int right_length = e - i + 1;
+    if (right_length == k) {
         return;
-    } else if (i < k) {
+    } else if (right_length > k) {
         arrangeRight(a, i + 1, e, k);
     } else {
-        arrangeRight(a, 0, j - 1, k);
+        arrangeRight(a, s, i - 1, k - right_length);
     }
 }
 
