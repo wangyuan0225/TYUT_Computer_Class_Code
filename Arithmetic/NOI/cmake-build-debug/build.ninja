@@ -74,37 +74,37 @@ build 7617.cpp.exe: CXX_EXECUTABLE_LINKER__7617.2ecpp_Debug CMakeFiles/7617.cpp.
   TARGET_PDB = 7617.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test.cpp
+# Object build statements for EXECUTABLE target 7617_test.cpp
 
 
 #############################################
-# Order-only phony target for test.cpp
+# Order-only phony target for 7617_test.cpp
 
-build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
+build cmake_object_order_depends_target_7617_test.cpp: phony || CMakeFiles/7617_test.cpp.dir
 
-build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/NOI/test.cpp || cmake_object_order_depends_target_test.cpp
-  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
+build CMakeFiles/7617_test.cpp.dir/7617_test.cpp.obj: CXX_COMPILER__7617_test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/NOI/7617_test.cpp || cmake_object_order_depends_target_7617_test.cpp
+  DEP_FILE = CMakeFiles\7617_test.cpp.dir\7617_test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_DIR = CMakeFiles\7617_test.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\7617_test.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test.cpp
+# Link build statements for EXECUTABLE target 7617_test.cpp
 
 
 #############################################
-# Link the executable test.cpp.exe
+# Link the executable 7617_test.cpp.exe
 
-build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
+build 7617_test.cpp.exe: CXX_EXECUTABLE_LINKER__7617_test.2ecpp_Debug CMakeFiles/7617_test.cpp.dir/7617_test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_DIR = CMakeFiles\7617_test.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test.cpp.exe
-  TARGET_IMPLIB = libtest.cpp.dll.a
-  TARGET_PDB = test.cpp.exe.dbg
+  TARGET_FILE = 7617_test.cpp.exe
+  TARGET_IMPLIB = lib7617_test.cpp.dll.a
+  TARGET_PDB = 7617_test.cpp.exe.dbg
 
 
 #############################################
@@ -134,7 +134,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 7617.cpp: phony 7617.cpp.exe
 
-build test.cpp: phony test.cpp.exe
+build 7617_test.cpp: phony 7617_test.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +144,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/NOI/cmake-build-debug
 
-build all: phony 7617.cpp.exe test.cpp.exe
+build all: phony 7617.cpp.exe 7617_test.cpp.exe
 
 # =============================================================================
 # Built-in targets
