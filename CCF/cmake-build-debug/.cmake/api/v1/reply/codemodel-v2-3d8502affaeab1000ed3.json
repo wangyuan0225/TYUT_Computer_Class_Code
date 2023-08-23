@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "CCF",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "202305-1.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-202305-1.cpp-Debug-ecf6b9dcea5d535f0984.json",
 					"name" : "202305-1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test.cpp-Debug-f232941d5025d6119f34.json",
+					"name" : "test.cpp",
 					"projectIndex" : 0
 				}
 			]
@@ -55,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 5
 	}
 }
