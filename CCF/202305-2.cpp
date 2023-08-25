@@ -2,9 +2,7 @@
 #include <vector>
 using namespace std;
 
-#define int long long
-
-signed main() {
+int main() {
 	int n, d;
 	cin >> n >> d;
 
@@ -39,13 +37,16 @@ signed main() {
 	vector<vector<long long>> answer(n, vector<long long>(n, 0));
 
 	//计算Q*K^T
-	int p = 0, j = 0, a = 0, b = 0;
+	int j = 0, a = 0, b = 0;
 	for	(int i = 0; i < n; ++i) {
 		for	(int r = 0; r < n; r++) {
+            long long tmp = 0;
 			for	(int c = 0; c < d; c++) {
-				answer[a][b] += q[i][j] * k[r][c];
+				tmp += q[i][j] * k[r][c];
 				j++;
 			}
+            tmp *= w[i];
+
 			j = 0;
 			b++;
 		}
@@ -53,18 +54,11 @@ signed main() {
 		b = 0;
 	}
 
-	//再乘W
-	for	(int i = 0; i < n; i++) {
-		for	(int j = 0; j < n; j++) {
-			answer[i][j] *= w[i];
-		}
-	}
-
 	//创建answer1
 	vector<vector<long long>> answer1(n, vector<long long>(d, 0));
 
 	//计算answer * V，得到最终结果
-	p = 0, j = 0, a = 0, b = 0;
+	j = 0, a = 0, b = 0;
 	for	(int i = 0; i < n; ++i) {
 		for	(int c = 0; c < d; c++) {
 			for	(int r = 0; r < n; r++) {
