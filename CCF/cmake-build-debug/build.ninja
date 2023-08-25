@@ -74,6 +74,39 @@ build 202305-1.cpp.exe: CXX_EXECUTABLE_LINKER__202305-1.2ecpp_Debug CMakeFiles/2
   TARGET_PDB = 202305-1.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 202305-2.cpp
+
+
+#############################################
+# Order-only phony target for 202305-2.cpp
+
+build cmake_object_order_depends_target_202305-2.cpp: phony || CMakeFiles/202305-2.cpp.dir
+
+build CMakeFiles/202305-2.cpp.dir/202305-2.cpp.obj: CXX_COMPILER__202305-2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202305-2.cpp || cmake_object_order_depends_target_202305-2.cpp
+  DEP_FILE = CMakeFiles\202305-2.cpp.dir\202305-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202305-2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202305-2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202305-2.cpp
+
+
+#############################################
+# Link the executable 202305-2.cpp.exe
+
+build 202305-2.cpp.exe: CXX_EXECUTABLE_LINKER__202305-2.2ecpp_Debug CMakeFiles/202305-2.cpp.dir/202305-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202305-2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202305-2.cpp.exe
+  TARGET_IMPLIB = lib202305-2.cpp.dll.a
+  TARGET_PDB = 202305-2.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target test.cpp
 
 
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 202305-1.cpp: phony 202305-1.cpp.exe
 
+build 202305-2.cpp: phony 202305-2.cpp.exe
+
 build test.cpp: phony test.cpp.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug
 
-build all: phony 202305-1.cpp.exe test.cpp.exe
+build all: phony 202305-1.cpp.exe 202305-2.cpp.exe test.cpp.exe
 
 # =============================================================================
 # Built-in targets

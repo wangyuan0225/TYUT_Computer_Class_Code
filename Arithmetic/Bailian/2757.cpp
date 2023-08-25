@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include <algorithm>
+
 using namespace std;
 
 const int MAXN = 1010;
@@ -23,6 +24,6 @@ int main() {
             }
         }
     }
-    cout << * max_element(maxLen + 1, maxLen + N + 1);
+    cout << *max_element(maxLen + 1, maxLen + N + 1);
     return 0;
 }
