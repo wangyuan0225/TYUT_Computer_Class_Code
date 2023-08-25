@@ -6,14 +6,14 @@ int main() {
     int n, d;
     cin >> n >> d;
 
-    //´´½¨QKVW
+    //åˆ›å»ºQKVW
     vector<vector<int>> q(n, vector<int>(d));
     vector<vector<int>> k(n, vector<int>(d));
     vector<vector<int>> v(n, vector<int>(d));
     vector<int> w(n);
 
 
-    //ÊäÈëQKVW
+    //è¾“å…¥QKVW
     for	(int i = 0; i < n; ++i) {
         for	(int j = 0; j < d; ++j) {
             cin >> q[i][j];
@@ -33,10 +33,10 @@ int main() {
         cin >> w[i];
     }
 
-    //´´½¨answer
+    //åˆ›å»ºanswer
     vector<vector<long long>> answer(n, vector<long long>(d, 0));
 
-    //¼ÆËã
+    //è®¡ç®—
     for	(int i = 0; i < n; ++i) {
         for	(int r = 0; r < n; r++) {
             long long tmp = 0;
@@ -50,13 +50,13 @@ int main() {
         }
     }
 
-    //²âÊÔ¿ªÊ¼
+    //æµ‹è¯•å¼€å§‹
     for	(int i = 0; i < n; i++) {
         for	(int j = 0; j < d; ++j) {
             cout << answer[i][j] << " ";
         }
         cout << endl;
     }
-    //²âÊÔ½áÊø
+    //æµ‹è¯•ç»“æŸ
     return 0;
 }
