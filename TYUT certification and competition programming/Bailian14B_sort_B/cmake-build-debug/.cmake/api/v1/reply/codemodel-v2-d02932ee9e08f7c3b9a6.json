@@ -16,7 +16,11 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -32,7 +36,11 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -50,6 +58,34 @@
 					"id" : "B.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-B.cpp-Debug-7a892780a7c23f77734b.json",
 					"name" : "B.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "C.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C.cpp-Debug-aff50525ae8d7d803dfb.json",
+					"name" : "C.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "D.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-D.cpp-Debug-a1f82d681446a3130ff3.json",
+					"name" : "D.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "E.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-E.cpp-Debug-551f446db0d156a1db23.json",
+					"name" : "E.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "F.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-F.cpp-Debug-b8c788c9d14428bdd8af.json",
+					"name" : "F.cpp",
 					"projectIndex" : 0
 				}
 			]

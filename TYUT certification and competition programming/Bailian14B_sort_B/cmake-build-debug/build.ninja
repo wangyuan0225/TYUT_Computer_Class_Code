@@ -106,6 +106,138 @@ build B.cpp.exe: CXX_EXECUTABLE_LINKER__B.2ecpp_Debug CMakeFiles/B.cpp.dir/B.cpp
   TARGET_IMPLIB = libB.cpp.dll.a
   TARGET_PDB = B.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target C.cpp
+
+
+#############################################
+# Order-only phony target for C.cpp
+
+build cmake_object_order_depends_target_C.cpp: phony || CMakeFiles/C.cpp.dir
+
+build CMakeFiles/C.cpp.dir/C.cpp.obj: CXX_COMPILER__C.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Bailian14B_sort_B/C.cpp || cmake_object_order_depends_target_C.cpp
+  DEP_FILE = CMakeFiles\C.cpp.dir\C.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\C.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C.cpp
+
+
+#############################################
+# Link the executable C.cpp.exe
+
+build C.cpp.exe: CXX_EXECUTABLE_LINKER__C.2ecpp_Debug CMakeFiles/C.cpp.dir/C.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\C.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = C.cpp.exe
+  TARGET_IMPLIB = libC.cpp.dll.a
+  TARGET_PDB = C.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D.cpp
+
+
+#############################################
+# Order-only phony target for D.cpp
+
+build cmake_object_order_depends_target_D.cpp: phony || CMakeFiles/D.cpp.dir
+
+build CMakeFiles/D.cpp.dir/D.cpp.obj: CXX_COMPILER__D.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Bailian14B_sort_B/D.cpp || cmake_object_order_depends_target_D.cpp
+  DEP_FILE = CMakeFiles\D.cpp.dir\D.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\D.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D.cpp
+
+
+#############################################
+# Link the executable D.cpp.exe
+
+build D.cpp.exe: CXX_EXECUTABLE_LINKER__D.2ecpp_Debug CMakeFiles/D.cpp.dir/D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D.cpp.exe
+  TARGET_IMPLIB = libD.cpp.dll.a
+  TARGET_PDB = D.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target E.cpp
+
+
+#############################################
+# Order-only phony target for E.cpp
+
+build cmake_object_order_depends_target_E.cpp: phony || CMakeFiles/E.cpp.dir
+
+build CMakeFiles/E.cpp.dir/E.cpp.obj: CXX_COMPILER__E.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Bailian14B_sort_B/E.cpp || cmake_object_order_depends_target_E.cpp
+  DEP_FILE = CMakeFiles\E.cpp.dir\E.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\E.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\E.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target E.cpp
+
+
+#############################################
+# Link the executable E.cpp.exe
+
+build E.cpp.exe: CXX_EXECUTABLE_LINKER__E.2ecpp_Debug CMakeFiles/E.cpp.dir/E.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\E.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = E.cpp.exe
+  TARGET_IMPLIB = libE.cpp.dll.a
+  TARGET_PDB = E.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target F.cpp
+
+
+#############################################
+# Order-only phony target for F.cpp
+
+build cmake_object_order_depends_target_F.cpp: phony || CMakeFiles/F.cpp.dir
+
+build CMakeFiles/F.cpp.dir/F.cpp.obj: CXX_COMPILER__F.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/TYUT$ certification$ and$ competition$ programming/Bailian14B_sort_B/F.cpp || cmake_object_order_depends_target_F.cpp
+  DEP_FILE = CMakeFiles\F.cpp.dir\F.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\F.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\F.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target F.cpp
+
+
+#############################################
+# Link the executable F.cpp.exe
+
+build F.cpp.exe: CXX_EXECUTABLE_LINKER__F.2ecpp_Debug CMakeFiles/F.cpp.dir/F.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\F.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = F.cpp.exe
+  TARGET_IMPLIB = libF.cpp.dll.a
+  TARGET_PDB = F.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +268,14 @@ build A.cpp: phony A.cpp.exe
 
 build B.cpp: phony B.cpp.exe
 
+build C.cpp: phony C.cpp.exe
+
+build D.cpp: phony D.cpp.exe
+
+build E.cpp: phony E.cpp.exe
+
+build F.cpp: phony F.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +284,7 @@ build B.cpp: phony B.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug
 
-build all: phony A.cpp.exe B.cpp.exe
+build all: phony A.cpp.exe B.cpp.exe C.cpp.exe D.cpp.exe E.cpp.exe F.cpp.exe
 
 # =============================================================================
 # Built-in targets
