@@ -4,5 +4,7 @@ D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programmin
 D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/D.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/E.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/F.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/G.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/H.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Bailian14B_sort_B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
