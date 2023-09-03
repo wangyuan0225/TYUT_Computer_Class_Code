@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test.cpp.exe"
+			"path" : "202303-1.cpp.exe"
 		},
 		{
-			"path" : "test.cpp.pdb"
+			"path" : "202303-1.cpp.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "test.cpp::@6890427a1f51a3e7e1df",
+	"id" : "202303-1.cpp::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test.cpp",
-	"nameOnDisk" : "test.cpp.exe",
+	"name" : "202303-1.cpp",
+	"nameOnDisk" : "202303-1.cpp.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test.cpp",
+			"path" : "202303-1.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
