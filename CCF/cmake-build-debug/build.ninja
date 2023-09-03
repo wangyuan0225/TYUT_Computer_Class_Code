@@ -41,6 +41,171 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 202212-1.cpp
+
+
+#############################################
+# Order-only phony target for 202212-1.cpp
+
+build cmake_object_order_depends_target_202212-1.cpp: phony || CMakeFiles/202212-1.cpp.dir
+
+build CMakeFiles/202212-1.cpp.dir/202212-1.cpp.obj: CXX_COMPILER__202212-1.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202212-1.cpp || cmake_object_order_depends_target_202212-1.cpp
+  DEP_FILE = CMakeFiles\202212-1.cpp.dir\202212-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202212-1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202212-1.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202212-1.cpp
+
+
+#############################################
+# Link the executable 202212-1.cpp.exe
+
+build 202212-1.cpp.exe: CXX_EXECUTABLE_LINKER__202212-1.2ecpp_Debug CMakeFiles/202212-1.cpp.dir/202212-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202212-1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202212-1.cpp.exe
+  TARGET_IMPLIB = lib202212-1.cpp.dll.a
+  TARGET_PDB = 202212-1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202212-2.cpp
+
+
+#############################################
+# Order-only phony target for 202212-2.cpp
+
+build cmake_object_order_depends_target_202212-2.cpp: phony || CMakeFiles/202212-2.cpp.dir
+
+build CMakeFiles/202212-2.cpp.dir/202212-2.cpp.obj: CXX_COMPILER__202212-2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202212-2.cpp || cmake_object_order_depends_target_202212-2.cpp
+  DEP_FILE = CMakeFiles\202212-2.cpp.dir\202212-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202212-2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202212-2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202212-2.cpp
+
+
+#############################################
+# Link the executable 202212-2.cpp.exe
+
+build 202212-2.cpp.exe: CXX_EXECUTABLE_LINKER__202212-2.2ecpp_Debug CMakeFiles/202212-2.cpp.dir/202212-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202212-2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202212-2.cpp.exe
+  TARGET_IMPLIB = lib202212-2.cpp.dll.a
+  TARGET_PDB = 202212-2.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202303-1.cpp
+
+
+#############################################
+# Order-only phony target for 202303-1.cpp
+
+build cmake_object_order_depends_target_202303-1.cpp: phony || CMakeFiles/202303-1.cpp.dir
+
+build CMakeFiles/202303-1.cpp.dir/202303-1.cpp.obj: CXX_COMPILER__202303-1.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202303-1.cpp || cmake_object_order_depends_target_202303-1.cpp
+  DEP_FILE = CMakeFiles\202303-1.cpp.dir\202303-1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202303-1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202303-1.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202303-1.cpp
+
+
+#############################################
+# Link the executable 202303-1.cpp.exe
+
+build 202303-1.cpp.exe: CXX_EXECUTABLE_LINKER__202303-1.2ecpp_Debug CMakeFiles/202303-1.cpp.dir/202303-1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202303-1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202303-1.cpp.exe
+  TARGET_IMPLIB = lib202303-1.cpp.dll.a
+  TARGET_PDB = 202303-1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202303-1N.cpp
+
+
+#############################################
+# Order-only phony target for 202303-1N.cpp
+
+build cmake_object_order_depends_target_202303-1N.cpp: phony || CMakeFiles/202303-1N.cpp.dir
+
+build CMakeFiles/202303-1N.cpp.dir/202303-1N.cpp.obj: CXX_COMPILER__202303-1N.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202303-1N.cpp || cmake_object_order_depends_target_202303-1N.cpp
+  DEP_FILE = CMakeFiles\202303-1N.cpp.dir\202303-1N.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202303-1N.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202303-1N.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202303-1N.cpp
+
+
+#############################################
+# Link the executable 202303-1N.cpp.exe
+
+build 202303-1N.cpp.exe: CXX_EXECUTABLE_LINKER__202303-1N.2ecpp_Debug CMakeFiles/202303-1N.cpp.dir/202303-1N.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202303-1N.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202303-1N.cpp.exe
+  TARGET_IMPLIB = lib202303-1N.cpp.dll.a
+  TARGET_PDB = 202303-1N.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202303-2.cpp
+
+
+#############################################
+# Order-only phony target for 202303-2.cpp
+
+build cmake_object_order_depends_target_202303-2.cpp: phony || CMakeFiles/202303-2.cpp.dir
+
+build CMakeFiles/202303-2.cpp.dir/202303-2.cpp.obj: CXX_COMPILER__202303-2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202303-2.cpp || cmake_object_order_depends_target_202303-2.cpp
+  DEP_FILE = CMakeFiles\202303-2.cpp.dir\202303-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202303-2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202303-2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202303-2.cpp
+
+
+#############################################
+# Link the executable 202303-2.cpp.exe
+
+build 202303-2.cpp.exe: CXX_EXECUTABLE_LINKER__202303-2.2ecpp_Debug CMakeFiles/202303-2.cpp.dir/202303-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202303-2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202303-2.cpp.exe
+  TARGET_IMPLIB = lib202303-2.cpp.dll.a
+  TARGET_PDB = 202303-2.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 202305-1.cpp
 
 
@@ -72,6 +237,39 @@ build 202305-1.cpp.exe: CXX_EXECUTABLE_LINKER__202305-1.2ecpp_Debug CMakeFiles/2
   TARGET_FILE = 202305-1.cpp.exe
   TARGET_IMPLIB = lib202305-1.cpp.dll.a
   TARGET_PDB = 202305-1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 202305-1N.cpp
+
+
+#############################################
+# Order-only phony target for 202305-1N.cpp
+
+build cmake_object_order_depends_target_202305-1N.cpp: phony || CMakeFiles/202305-1N.cpp.dir
+
+build CMakeFiles/202305-1N.cpp.dir/202305-1N.cpp.obj: CXX_COMPILER__202305-1N.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/202305-1N.cpp || cmake_object_order_depends_target_202305-1N.cpp
+  DEP_FILE = CMakeFiles\202305-1N.cpp.dir\202305-1N.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\202305-1N.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\202305-1N.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 202305-1N.cpp
+
+
+#############################################
+# Link the executable 202305-1N.cpp.exe
+
+build 202305-1N.cpp.exe: CXX_EXECUTABLE_LINKER__202305-1N.2ecpp_Debug CMakeFiles/202305-1N.cpp.dir/202305-1N.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\202305-1N.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 202305-1N.cpp.exe
+  TARGET_IMPLIB = lib202305-1N.cpp.dll.a
+  TARGET_PDB = 202305-1N.cpp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 202305-2.cpp
@@ -106,39 +304,6 @@ build 202305-2.cpp.exe: CXX_EXECUTABLE_LINKER__202305-2.2ecpp_Debug CMakeFiles/2
   TARGET_IMPLIB = lib202305-2.cpp.dll.a
   TARGET_PDB = 202305-2.cpp.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target test.cpp
-
-
-#############################################
-# Order-only phony target for test.cpp
-
-build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
-
-build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/CCF/test.cpp || cmake_object_order_depends_target_test.cpp
-  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test.cpp
-
-
-#############################################
-# Link the executable test.cpp.exe
-
-build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = test.cpp.exe
-  TARGET_IMPLIB = libtest.cpp.dll.a
-  TARGET_PDB = test.cpp.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -165,11 +330,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 202212-1.cpp: phony 202212-1.cpp.exe
+
+build 202212-2.cpp: phony 202212-2.cpp.exe
+
+build 202303-1.cpp: phony 202303-1.cpp.exe
+
+build 202303-1N.cpp: phony 202303-1N.cpp.exe
+
+build 202303-2.cpp: phony 202303-2.cpp.exe
+
 build 202305-1.cpp: phony 202305-1.cpp.exe
 
-build 202305-2.cpp: phony 202305-2.cpp.exe
+build 202305-1N.cpp: phony 202305-1N.cpp.exe
 
-build test.cpp: phony test.cpp.exe
+build 202305-2.cpp: phony 202305-2.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -179,7 +354,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug
 
-build all: phony 202305-1.cpp.exe 202305-2.cpp.exe test.cpp.exe
+build all: phony 202212-1.cpp.exe 202212-2.cpp.exe 202303-1.cpp.exe 202303-1N.cpp.exe 202303-2.cpp.exe 202305-1.cpp.exe 202305-1N.cpp.exe 202305-2.cpp.exe
 
 # =============================================================================
 # Built-in targets
