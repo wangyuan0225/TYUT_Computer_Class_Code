@@ -107,6 +107,39 @@ build 1163N.cpp.exe: CXX_EXECUTABLE_LINKER__1163N.2ecpp_Debug CMakeFiles/1163N.c
   TARGET_PDB = 1163N.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 1163NN.cpp
+
+
+#############################################
+# Order-only phony target for 1163NN.cpp
+
+build cmake_object_order_depends_target_1163NN.cpp: phony || CMakeFiles/1163NN.cpp.dir
+
+build CMakeFiles/1163NN.cpp.dir/1163NN.cpp.obj: CXX_COMPILER__1163NN.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/1163NN.cpp || cmake_object_order_depends_target_1163NN.cpp
+  DEP_FILE = CMakeFiles\1163NN.cpp.dir\1163NN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1163NN.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\1163NN.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1163NN.cpp
+
+
+#############################################
+# Link the executable 1163NN.cpp.exe
+
+build 1163NN.cpp.exe: CXX_EXECUTABLE_LINKER__1163NN.2ecpp_Debug CMakeFiles/1163NN.cpp.dir/1163NN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1163NN.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1163NN.cpp.exe
+  TARGET_IMPLIB = lib1163NN.cpp.dll.a
+  TARGET_PDB = 1163NN.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 1222.cpp
 
 
@@ -138,6 +171,39 @@ build 1222.cpp.exe: CXX_EXECUTABLE_LINKER__1222.2ecpp_Debug CMakeFiles/1222.cpp.
   TARGET_FILE = 1222.cpp.exe
   TARGET_IMPLIB = lib1222.cpp.dll.a
   TARGET_PDB = 1222.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1458.cpp
+
+
+#############################################
+# Order-only phony target for 1458.cpp
+
+build cmake_object_order_depends_target_1458.cpp: phony || CMakeFiles/1458.cpp.dir
+
+build CMakeFiles/1458.cpp.dir/1458.cpp.obj: CXX_COMPILER__1458.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/1458.cpp || cmake_object_order_depends_target_1458.cpp
+  DEP_FILE = CMakeFiles\1458.cpp.dir\1458.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1458.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\1458.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1458.cpp
+
+
+#############################################
+# Link the executable 1458.cpp.exe
+
+build 1458.cpp.exe: CXX_EXECUTABLE_LINKER__1458.2ecpp_Debug CMakeFiles/1458.cpp.dir/1458.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1458.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1458.cpp.exe
+  TARGET_IMPLIB = lib1458.cpp.dll.a
+  TARGET_PDB = 1458.cpp.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1664.cpp
@@ -202,7 +268,11 @@ build 1163.cpp: phony 1163.cpp.exe
 
 build 1163N.cpp: phony 1163N.cpp.exe
 
+build 1163NN.cpp: phony 1163NN.cpp.exe
+
 build 1222.cpp: phony 1222.cpp.exe
+
+build 1458.cpp: phony 1458.cpp.exe
 
 build 1664.cpp: phony 1664.cpp.exe
 
@@ -214,7 +284,7 @@ build 1664.cpp: phony 1664.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug
 
-build all: phony 1163.cpp.exe 1163N.cpp.exe 1222.cpp.exe 1664.cpp.exe
+build all: phony 1163.cpp.exe 1163N.cpp.exe 1163NN.cpp.exe 1222.cpp.exe 1458.cpp.exe 1664.cpp.exe
 
 # =============================================================================
 # Built-in targets
