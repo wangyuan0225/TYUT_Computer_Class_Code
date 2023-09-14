@@ -1,0 +1,6 @@
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/MyFirstCppProgram01.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/MyFirstCppProgram02.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/MyFirstCppProgram03.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/MyFirstCppProgram04.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C&Java/TYUT_Computer_Class_Code/Class teaching code/example01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
