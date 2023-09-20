@@ -1,3 +1,4 @@
+D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug/CMakeFiles/202206-1.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug/CMakeFiles/202209-1.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug/CMakeFiles/202209-2.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/CCF/cmake-build-debug/CMakeFiles/202212-1.cpp.dir
