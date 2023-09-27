@@ -13,14 +13,7 @@ private:
     int frequency;
     double voltage;
 public:
-    //构造函数
-    CPU() {
-        rank = P1;
-        frequency = 0;
-        voltage = 0;
-    }
-
-    CPU(CPU_Rank r, int f, double v) {
+    CPU(CPU_Rank r = P1, int f = 0, double v = 0) {
         rank = r;
         frequency = f;
         voltage = v;
@@ -54,13 +47,7 @@ private:
     RAM ram;
     CDROM cdrom;
 public:
-    Computer() {
-        cpu = CPU();
-        ram = RAM();
-        cdrom = CDROM();
-    }
-
-    Computer(CPU c, RAM r, CDROM cd) {
+    Computer(CPU c = CPU(), RAM r = RAM(), CDROM cd = CDROM()) {
         cpu = c;
         ram = r;
         cdrom = cd;
