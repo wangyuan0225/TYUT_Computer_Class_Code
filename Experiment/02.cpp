@@ -19,23 +19,13 @@ public:
     void change_name(string n);
     void display();
 };
-
 class Date {
 private:
     int year;
     int month;
     int day;
 public:
-    Date() {
-        year = 0;
-        month = 0;
-        day = 0;
-    }
-
-    Date(int y, int m, int d) {
-        year = y;
-        month = m;
-        day = d;
+    Date(int y = 0, int m = 0, int d = 0) : year(y), month(m), day(d) {
     }
 
     //内联成员函数
@@ -53,27 +43,12 @@ private:
     Date birthday;
     string id;
 public:
-    People() {
-        number = 0;
-        sex = "";
-        birthday = Date();
-        id = "";
-    }
-
     //组合类
-    People(int n, string s, Date b, string i) : birthday(b) {
-        number = n;
-        sex = s;
-        birthday = b;
-        id = i;
+    People(int n = 0, string s = "", Date b = Date(), string i = "") : number(n), sex(s), birthday(b), id(i) {
     }
 
     //拷贝构造函数
-    People(const People &p) {
-        number = p.number;
-        sex = p.sex;
-        birthday = p.birthday;
-        id = p.id;
+    People(const People &p) : number(p.number), sex(p.sex), birthday(p.birthday), id(p.id) {
     }
 
     ~People() {
@@ -131,7 +106,10 @@ int main() {
 
     //----------------内容2----------------
     Employee e;
-    e.change_name("王渊");
+    string name;
+    cout << "请输入你想改的名字:";
+    cin >> name;
+    e.change_name(name);
     e.display();
 
     //----------------内容3----------------
@@ -139,13 +117,13 @@ int main() {
     int number, year, month, day;
     string sex, id;
     for (int i = 0; i < 2; ++i) {
-        cout << "请输入第" << i << "个人的编号:";
+        cout << "请输入第" << i + 1 << "个人的编号:";
         cin >> number;
-        cout << "请输入第" << i << "个人的性别:";
+        cout << "请输入第" << i + 1 << "个人的性别:";
         cin >> sex;
-        cout << "请输入第" << i << "个人的出生日期，以空格分隔:";
+        cout << "请输入第" << i + 1 << "个人的出生日期，以空格分隔:";
         cin >> year >> month >> day;
-        cout << "请输入第" << i << "个人的身份证号:";
+        cout << "请输入第" << i + 1 << "个人的身份证号:";
         cin >> id;
         Date birthday(year, month, day);
         p[i].setNumber(number);
@@ -156,12 +134,12 @@ int main() {
 
     cout << "-----------------------------------" << endl;
     for (int i = 0; i < 2; ++i) {
-        cout << "第" << i << "个人的编号：" << p[i].getNumber() << endl;
-        cout << "第" << i << "个人的性别：" << p[i].getSex() << endl;
-        cout << "第" << i << "个人的出生日期：";
+        cout << "第" << i + 1 << "个人的编号：" << p[i].getNumber() << endl;
+        cout << "第" << i + 1 << "个人的性别：" << p[i].getSex() << endl;
+        cout << "第" << i + 1 << "个人的出生日期：";
         Date date = p[i].getBirthday();
         date.show();
-        cout << "第" << i << "个人的身份证号：" << p[i].getId() << endl;
+        cout << "第" << i + 1 << "个人的身份证号：" << p[i].getId() << endl;
         cout << "-----------------------------------" << endl;
     }
     return 0;

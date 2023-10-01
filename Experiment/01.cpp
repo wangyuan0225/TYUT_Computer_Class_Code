@@ -13,10 +13,7 @@ private:
     int frequency;
     double voltage;
 public:
-    CPU(CPU_Rank r = P1, int f = 0, double v = 0) {
-        rank = r;
-        frequency = f;
-        voltage = v;
+    CPU(CPU_Rank r = P1, int f = 0, double v = 0) : rank(r), frequency(f), voltage(v) {
         cout << "构造了一个CPU!" << endl;
     }
 
@@ -47,10 +44,7 @@ private:
     RAM ram;
     CDROM cdrom;
 public:
-    Computer(CPU c = CPU(), RAM r = RAM(), CDROM cd = CDROM()) {
-        cpu = c;
-        ram = r;
-        cdrom = cd;
+    Computer(CPU c, RAM r, CDROM cd) : cpu(c), ram(r), cdrom(cd) {
         cout << "构造了一台电脑!" << endl;
     }
 
@@ -74,16 +68,7 @@ private:
     int month;
     int day;
 public:
-    Date() {
-        year = 0;
-        month = 0;
-        day = 0;
-    }
-
-    Date(int y, int m, int d) {
-        year = y;
-        month = m;
-        day = d;
+    Date(int y = 0, int m = 0, int d = 0) : year(y), month(m), day(d) {
     }
 
     //内联成员函数
@@ -101,27 +86,12 @@ private:
     Date birthday;
     string id;
 public:
-    People() {
-        number = 0;
-        sex = "";
-        birthday = Date();
-        id = "";
-    }
-
     //组合类
-    People(int n, string s, Date b, string i) : birthday(b) {
-        number = n;
-        sex = s;
-        birthday = b;
-        id = i;
+    People(int n = 0, string s = "", Date b = Date(), string i = "") : number(n), sex(s), birthday(b), id(i) {
     }
 
     //拷贝构造函数
-    People(const People &p) {
-        number = p.number;
-        sex = p.sex;
-        birthday = p.birthday;
-        id = p.id;
+    People(const People &p) : number(p.number), sex(p.sex), birthday(p.birthday), id(p.id) {
     }
 
     ~People() {
