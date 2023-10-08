@@ -3,7 +3,7 @@
 typedef struct { //负数类型
     float realPart; //实部
     float imagePart; //虚部
-}Complex;
+} Complex;
 
 void createComplex(Complex *c, float realPart, float imagePart); //创建复数
 void addComplex(Complex *c1, Complex c2, Complex c3); //复数相加
@@ -20,6 +20,7 @@ void createComplex(Complex *c, float realPart, float imagePart) { //创建复数
     c->realPart = realPart;
     c->imagePart = imagePart;
 }
+
 void addComplex(Complex *c1, Complex c2, Complex c3) { //复数相加
     c1->realPart = c2.realPart + c3.realPart;
     c1->imagePart = c2.imagePart + c3.imagePart;
