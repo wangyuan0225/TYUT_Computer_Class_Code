@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 int result[9];
@@ -16,9 +17,12 @@ public:
         city = c;
         postalCode = p;
     }
+
     void change_name(string n);
+
     void display();
 };
+
 class Date {
 private:
     int year;
@@ -38,52 +42,69 @@ void Date::show() const {
 
 class People {
 private:
-    int number;
-    string sex;
+    char name[11];
+    char number[7];
+    char sex[3];
     Date birthday;
-    string id;
+    char id[16];
 public:
     //组合类
-    People(int n = 0, string s = "", Date b = Date(), string i = "") : number(n), sex(s), birthday(b), id(i) {
+    People(char n[11] = "", char nb[7] = "", char s[3] = "", Date b = Date(), char i[16] = "") : birthday(b) {
+        strcpy(name, n);
+        strcpy(number, nb);
+        strcpy(sex, s);
+        strcpy(id, i);
     }
 
     //拷贝构造函数
-    People(const People &p) : number(p.number), sex(p.sex), birthday(p.birthday), id(p.id) {
+    People(const People &p) : birthday(p.birthday) {
+        strcpy(name, p.name);
+        strcpy(number, p.number);
+        strcpy(sex, p.sex);
+        strcpy(id, p.id);
     }
 
     ~People() {
     }
 
-    void setNumber(int n) {
-        number = n;
+    void setName(char n[]) {
+        strcpy(name, n);
     }
 
-    void setSex(string s) {
-        sex = s;
+    void setNumber(char n[]) {
+        strcpy(number, n);
+    }
+
+    void setSex(char s[]) {
+        strcpy(sex, s);
     }
 
     void setBirthday(Date d) {
         birthday = d;
     }
 
-    void setId(string i) {
-        id = i;
+    void setId(char i[]) {
+        strcpy(id, i);
     }
 
-    int getNumber() const {
-        return number;
+    char *getName() const {
+        return (char *) name;
     }
 
-    string getSex() const {
-        return sex;
+    char *getNumber() const {
+        return (char *) number;
+    }
+
+    char *getSex() const {
+        return (char *) sex;
     }
 
     Date getBirthday() const {
         return birthday;
     }
 
-    string getId() const {
-        return id;
+    char *getId() const {
+        return (char *) id;
     }
 };
 
@@ -114,9 +135,14 @@ int main() {
 
     //----------------内容3----------------
     People p[2];
-    int number, year, month, day;
-    string sex, id;
+    int year, month, day;
+    char name1[11];
+    char number[7];
+    char sex[4];
+    char id[16];
     for (int i = 0; i < 2; ++i) {
+        cout << "请输入第" << i + 1 << "个人的姓名:";
+        cin >> name1;
         cout << "请输入第" << i + 1 << "个人的编号:";
         cin >> number;
         cout << "请输入第" << i + 1 << "个人的性别:";
@@ -126,6 +152,7 @@ int main() {
         cout << "请输入第" << i + 1 << "个人的身份证号:";
         cin >> id;
         Date birthday(year, month, day);
+        p[i].setName(name1);
         p[i].setNumber(number);
         p[i].setSex(sex);
         p[i].setBirthday(birthday);
@@ -134,6 +161,7 @@ int main() {
 
     cout << "-----------------------------------" << endl;
     for (int i = 0; i < 2; ++i) {
+        cout << "第" << i + 1 << "个人的姓名：" << p[i].getName() << endl;
         cout << "第" << i + 1 << "个人的编号：" << p[i].getNumber() << endl;
         cout << "第" << i + 1 << "个人的性别：" << p[i].getSex() << endl;
         cout << "第" << i + 1 << "个人的出生日期：";
