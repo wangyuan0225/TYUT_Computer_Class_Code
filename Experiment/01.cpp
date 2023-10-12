@@ -17,6 +17,10 @@ public:
         cout << "构造了一个CPU!" << endl;
     }
 
+    CPU(const CPU &c) : rank(c.rank), frequency(c.frequency), voltage(c.voltage) {
+        cout << "拷贝构造了一个CPU" << endl;
+    }
+
     //析构函数
     ~CPU() {
         cout << "析构了一个CPU!" << endl;
@@ -46,6 +50,10 @@ private:
 public:
     Computer(CPU c, RAM r, CDROM cd) : cpu(c), ram(r), cdrom(cd) {
         cout << "构造了一台电脑!" << endl;
+    }
+
+    Computer(const Computer &p) : cpu(p.cpu), ram(p.ram), cdrom(p.cdrom) {
+        cout << "拷贝构造了一台电脑" << endl;
     }
 
     ~Computer() {
