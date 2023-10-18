@@ -140,7 +140,7 @@ public:
         return (char *) id;
     }
 
-    virtual void show() const {
+    void show() const {
         cout << "姓名：" << name << endl;
         cout << "编号：" << number << endl;
         cout << "性别：" << sex << endl;
@@ -253,7 +253,7 @@ int main() {
     Motorcycle motorcycle;
     motorcycle.print();
     motorcycle.run();
-    motorcycle.stop();300
+    motorcycle.stop();
     cout << endl;
     //----------------内容三----------------
     Date date_tmp[10] = {{2004, 2,  25},
