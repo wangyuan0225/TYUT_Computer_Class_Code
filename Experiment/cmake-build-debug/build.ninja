@@ -139,6 +139,39 @@ build 02.cpp.exe: CXX_EXECUTABLE_LINKER__02.2ecpp_Debug CMakeFiles/02.cpp.dir/02
   TARGET_IMPLIB = lib02.cpp.dll.a
   TARGET_PDB = 02.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03.cpp
+
+
+#############################################
+# Order-only phony target for 03.cpp
+
+build cmake_object_order_depends_target_03.cpp: phony || CMakeFiles/03.cpp.dir
+
+build CMakeFiles/03.cpp.dir/03.cpp.obj: CXX_COMPILER__03.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Experiment/03.cpp || cmake_object_order_depends_target_03.cpp
+  DEP_FILE = CMakeFiles\03.cpp.dir\03.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\03.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\03.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03.cpp
+
+
+#############################################
+# Link the executable 03.cpp.exe
+
+build 03.cpp.exe: CXX_EXECUTABLE_LINKER__03.2ecpp_Debug CMakeFiles/03.cpp.dir/03.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03.cpp.exe
+  TARGET_IMPLIB = lib03.cpp.dll.a
+  TARGET_PDB = 03.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build 01.cpp: phony 01.cpp.exe
 
 build 02.cpp: phony 02.cpp.exe
 
+build 03.cpp: phony 03.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build 02.cpp: phony 02.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Experiment/cmake-build-debug
 
-build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe
+build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe 03.cpp.exe
 
 # =============================================================================
 # Built-in targets
