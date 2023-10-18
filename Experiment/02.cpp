@@ -44,12 +44,12 @@ class People {
 private:
     char name[11];
     char number[7];
-    char sex[3];
+    char sex[4];
     Date birthday;
     char id[16];
 public:
     //组合类
-    People(char n[11] = "", char nb[7] = "", char s[3] = "", Date b = Date(), char i[16] = "") : birthday(b) {
+    People(char n[11] = "", char nb[7] = "", char s[4] = "", Date b = Date(), char i[16] = "") : birthday(b) {
         strcpy(name, n);
         strcpy(number, nb);
         strcpy(sex, s);
