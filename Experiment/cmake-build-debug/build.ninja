@@ -172,6 +172,72 @@ build 03.cpp.exe: CXX_EXECUTABLE_LINKER__03.2ecpp_Debug CMakeFiles/03.cpp.dir/03
   TARGET_IMPLIB = lib03.cpp.dll.a
   TARGET_PDB = 03.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 04.cpp
+
+
+#############################################
+# Order-only phony target for 04.cpp
+
+build cmake_object_order_depends_target_04.cpp: phony || CMakeFiles/04.cpp.dir
+
+build CMakeFiles/04.cpp.dir/04.cpp.obj: CXX_COMPILER__04.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Experiment/04.cpp || cmake_object_order_depends_target_04.cpp
+  DEP_FILE = CMakeFiles\04.cpp.dir\04.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\04.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\04.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04.cpp
+
+
+#############################################
+# Link the executable 04.cpp.exe
+
+build 04.cpp.exe: CXX_EXECUTABLE_LINKER__04.2ecpp_Debug CMakeFiles/04.cpp.dir/04.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04.cpp.exe
+  TARGET_IMPLIB = lib04.cpp.dll.a
+  TARGET_PDB = 04.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Order-only phony target for test.cpp
+
+build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
+
+build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Experiment/test.cpp || cmake_object_order_depends_target_test.cpp
+  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Link the executable test.cpp.exe
+
+build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.cpp.exe
+  TARGET_IMPLIB = libtest.cpp.dll.a
+  TARGET_PDB = test.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +272,10 @@ build 02.cpp: phony 02.cpp.exe
 
 build 03.cpp: phony 03.cpp.exe
 
+build 04.cpp: phony 04.cpp.exe
+
+build test.cpp: phony test.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +284,7 @@ build 03.cpp: phony 03.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Experiment/cmake-build-debug
 
-build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe 03.cpp.exe
+build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe 03.cpp.exe 04.cpp.exe test.cpp.exe
 
 # =============================================================================
 # Built-in targets
