@@ -18,7 +18,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -36,7 +38,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -68,6 +72,20 @@
 					"id" : "03.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03.cpp-Debug-b1e18480eecdaf698adf.json",
 					"name" : "03.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04.cpp-Debug-d46b250f7339aaf4c962.json",
+					"name" : "04.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test.cpp-Debug-f232941d5025d6119f34.json",
+					"name" : "test.cpp",
 					"projectIndex" : 0
 				}
 			]
