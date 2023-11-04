@@ -83,9 +83,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "test.cpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test.cpp-Debug-f232941d5025d6119f34.json",
-					"name" : "test.cpp",
+					"id" : "test_static_count.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_static_count.cpp-Debug-6035245bb93007620590.json",
+					"name" : "test_static_count.cpp",
 					"projectIndex" : 0
 				}
 			]
