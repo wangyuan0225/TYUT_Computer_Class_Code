@@ -1,13 +1,13 @@
 /**
   ****************************************************************************************
-  * Copyright ? TaiYuan University of Technology. Ltd. 1902-2023. All rights reserved.
+  * Copyright Â© Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
   * @BelongsProject : Experiment
   * @File           : 04.cpp
   * @Author         : yuan wang (wy0225)
-  * @Brief          : £¨1£©±àĞ´³ÌĞò£¬½«×Ö·û´®¡°ÎÄ¼şĞ´ÈëÕıÈ·¡±ÓÃ¶ş½øÖÆ·½Ê½Ğ´Èëµ½ÎÄ¼şdata.datÖĞ£¬²¢ÓÃ
-                           ¶ş½øÖÆ·½Ê½½«data.datµÄÒ»¸öÎÄ¼ş´ò¿ª£¬ÔÚÆÁÄ»ÉÏÏÔÊ¾³öÀ´¡£
-                      £¨2£©¶¨ÒåÒ»¸öÑ§ÉúÀàÊı×é£¬ÊäÈëÊı¾İ£¬ÏÔÊ¾³öÀ´£¬Ê¹ÓÃI/OÁ÷°Ñ´ËÊı×éµÄÄÚÈİĞ´Èë´ÅÅÌ
-                           ÎÄ¼ş£¬ÔÙÏÔÊ¾³öÎÄ¼şÄÚÈİ¡£
+  * @Brief          : ï¼ˆ1ï¼‰ç¼–å†™ç¨‹åºï¼Œå°†å­—ç¬¦ä¸²â€œæ–‡ä»¶å†™å…¥æ­£ç¡®â€ç”¨äºŒè¿›åˆ¶æ–¹å¼å†™å…¥åˆ°æ–‡ä»¶data.datä¸­ï¼Œå¹¶ç”¨
+                           äºŒè¿›åˆ¶æ–¹å¼å°†data.datçš„ä¸€ä¸ªæ–‡ä»¶æ‰“å¼€ï¼Œåœ¨å±å¹•ä¸Šæ˜¾ç¤ºå‡ºæ¥ã€‚
+                      ï¼ˆ2ï¼‰å®šä¹‰ä¸€ä¸ªå­¦ç”Ÿç±»æ•°ç»„ï¼Œè¾“å…¥æ•°æ®ï¼Œæ˜¾ç¤ºå‡ºæ¥ï¼Œä½¿ç”¨I/OæµæŠŠæ­¤æ•°ç»„çš„å†…å®¹å†™å…¥ç£ç›˜
+                           æ–‡ä»¶ï¼Œå†æ˜¾ç¤ºå‡ºæ–‡ä»¶å†…å®¹ã€‚
   * @Attention      : None
   * @Date           : 2023-10-19  21:25
   * @Version        : 1.0
@@ -27,7 +27,7 @@ private:
 public:
     Date(int y = 0, int m = 0, int d = 0) : year(y), month(m), day(d) {}
 
-    //ÄÚÁª³ÉÔ±º¯Êı
+    //å†…è”æˆå‘˜å‡½æ•°
     inline void show() const;
 };
 
@@ -43,7 +43,7 @@ protected:
     Date birthday;
     char id[20];
 public:
-    //×éºÏÀà
+    //ç»„åˆç±»
     People(char n[11] = "", char nb[7] = "", char s[4] = "", Date b = Date(), char i[20] = "") : birthday(b) {
         strcpy(name, n);
         strcpy(number, nb);
@@ -51,7 +51,7 @@ public:
         strcpy(id, i);
     }
 
-    //¿½±´¹¹Ôìº¯Êı
+    //æ‹·è´æ„é€ å‡½æ•°
     People(const People &p) : birthday(p.birthday) {
         strcpy(name, p.name);
         strcpy(number, p.number);
@@ -103,12 +103,12 @@ public:
     }
 
     void show() const {
-        cout << "ĞÕÃû£º" << name << endl;
-        cout << "±àºÅ£º" << number << endl;
-        cout << "ĞÔ±ğ£º" << sex << endl;
-        cout << "³öÉúÈÕÆÚ£º";
+        cout << "å§“åï¼š" << name << endl;
+        cout << "ç¼–å·ï¼š" << number << endl;
+        cout << "æ€§åˆ«ï¼š" << sex << endl;
+        cout << "å‡ºç”Ÿæ—¥æœŸï¼š";
         birthday.show();
-        cout << "Éí·İÖ¤ºÅ£º" << id << endl;
+        cout << "èº«ä»½è¯å·ï¼š" << id << endl;
     }
 };
 
@@ -126,25 +126,25 @@ public:
     }
 
     void show() const {
-        cout << "ĞÕÃû£º" << name << endl;
-        cout << "±àºÅ£º" << number << endl;
-        cout << "ĞÔ±ğ£º" << sex << endl;
-        cout << "³öÉúÈÕÆÚ£º";
+        cout << "å§“åï¼š" << name << endl;
+        cout << "ç¼–å·ï¼š" << number << endl;
+        cout << "æ€§åˆ«ï¼š" << sex << endl;
+        cout << "å‡ºç”Ÿæ—¥æœŸï¼š";
         birthday.show();
-        cout << "Éí·İÖ¤ºÅ£º" << id << endl;
-        cout << "°àºÅ£º" << classNo << endl;
+        cout << "èº«ä»½è¯å·ï¼š" << id << endl;
+        cout << "ç­å·ï¼š" << classNo << endl;
     }
 };
 
 int main() {
-    //****************************************ÄÚÈİÒ»****************************************
+    //****************************************å†…å®¹ä¸€****************************************
     ofstream fout;
     fout.open("data.dat", ios::binary);
     if (fout.fail()) {
         cout << "cannot open file!" << endl;
         exit(1);
     }
-    char s[] = "ÎÄ¼şĞ´ÈëÕıÈ·";
+    char s[] = "æ–‡ä»¶å†™å…¥æ­£ç¡®";
     int len = strlen(s);
     fout.write(s, len);
     fout.close();
@@ -161,7 +161,7 @@ int main() {
     cout << tmp << endl;
     fin.close();
 
-    //****************************************ÄÚÈİ¶ş****************************************
+    //****************************************å†…å®¹äºŒ****************************************
     Student students[3];
     char name[11];
     char number[7];
@@ -170,25 +170,25 @@ int main() {
     char classNo[20];
 
     for (int i = 0; i < 3; ++i) {
-        cout << "ÇëÊäÈëÑ§Éú" << i + 1 << "µÄĞÅÏ¢£º" << endl;
-        cout << "ĞÕÃû£º";
+        cout << "è¯·è¾“å…¥å­¦ç”Ÿ" << i + 1 << "çš„ä¿¡æ¯ï¼š" << endl;
+        cout << "å§“åï¼š";
         cin >> name;
         students[i].setName(name);
-        cout << "Ñ§ºÅ£º";
+        cout << "å­¦å·ï¼š";
         cin >> number;
         students[i].setNumber(number);
-        cout << "ĞÔ±ğ£º";
+        cout << "æ€§åˆ«ï¼š";
         cin >> sex;
         students[i].setSex(sex);
-        cout << "ÉúÈÕ£¨Äê ÔÂ ÈÕ£©£º";
+        cout << "ç”Ÿæ—¥ï¼ˆå¹´ æœˆ æ—¥ï¼‰ï¼š";
         int year, month, day;
         cin >> year >> month >> day;
         Date d = Date(year, month, day);
         students[i].setBirthday(d);
-        cout << "Éí·İÖ¤ºÅ£º";
+        cout << "èº«ä»½è¯å·ï¼š";
         cin >> id;
         students[i].setId(id);
-        cout << "°à¼¶£º";
+        cout << "ç­çº§ï¼š";
         cin >> classNo;
         students[i].setClassNo(classNo);
     }
@@ -212,9 +212,8 @@ int main() {
     cout << "--------------------------------------" << endl;
     for (int i = 0; i < 3; ++i) {
         Student tmp_s;
-        //fin.seekg(i * sizeof(students), ios::beg);
         fin.read((char *) &tmp_s, sizeof(students[i]));
-        cout << "µÚ" << i + 1 << "¸öÑ§ÉúµÄĞÅÏ¢£º" << endl;
+        cout << "ç¬¬" << i + 1 << "ä¸ªå­¦ç”Ÿçš„ä¿¡æ¯ï¼š" << endl;
         tmp_s.show();
         cout << "--------------------------------------" << endl;
     }

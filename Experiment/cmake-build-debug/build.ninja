@@ -206,37 +206,37 @@ build 04.cpp.exe: CXX_EXECUTABLE_LINKER__04.2ecpp_Debug CMakeFiles/04.cpp.dir/04
   TARGET_PDB = 04.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test.cpp
+# Object build statements for EXECUTABLE target test_static_count.cpp
 
 
 #############################################
-# Order-only phony target for test.cpp
+# Order-only phony target for test_static_count.cpp
 
-build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
+build cmake_object_order_depends_target_test_static_count.cpp: phony || CMakeFiles/test_static_count.cpp.dir
 
-build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Experiment/test.cpp || cmake_object_order_depends_target_test.cpp
-  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
+build CMakeFiles/test_static_count.cpp.dir/test_static_count.cpp.obj: CXX_COMPILER__test_static_count.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Experiment/test_static_count.cpp || cmake_object_order_depends_target_test_static_count.cpp
+  DEP_FILE = CMakeFiles\test_static_count.cpp.dir\test_static_count.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_DIR = CMakeFiles\test_static_count.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test_static_count.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test.cpp
+# Link build statements for EXECUTABLE target test_static_count.cpp
 
 
 #############################################
-# Link the executable test.cpp.exe
+# Link the executable test_static_count.cpp.exe
 
-build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
+build test_static_count.cpp.exe: CXX_EXECUTABLE_LINKER__test_static_count.2ecpp_Debug CMakeFiles/test_static_count.cpp.dir/test_static_count.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_DIR = CMakeFiles\test_static_count.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test.cpp.exe
-  TARGET_IMPLIB = libtest.cpp.dll.a
-  TARGET_PDB = test.cpp.exe.dbg
+  TARGET_FILE = test_static_count.cpp.exe
+  TARGET_IMPLIB = libtest_static_count.cpp.dll.a
+  TARGET_PDB = test_static_count.cpp.exe.dbg
 
 
 #############################################
@@ -274,7 +274,7 @@ build 03.cpp: phony 03.cpp.exe
 
 build 04.cpp: phony 04.cpp.exe
 
-build test.cpp: phony test.cpp.exe
+build test_static_count.cpp: phony test_static_count.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -284,7 +284,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Experiment/cmake-build-debug
 
-build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe 03.cpp.exe 04.cpp.exe test.cpp.exe
+build all: phony 00.cpp.exe 01.cpp.exe 02.cpp.exe 03.cpp.exe 04.cpp.exe test_static_count.cpp.exe
 
 # =============================================================================
 # Built-in targets
