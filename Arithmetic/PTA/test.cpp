@@ -6,62 +6,91 @@
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
   * @Attention      : None
-  * @Date           : 2023-11-06  21:07
+  * @Date           : 2023-11-15  22:15
   * @Version        : 1.0
   ****************************************************************************************
   */
+
 #include <iostream>
+#include <vector>
+#include <unordered_map>
 
-const unsigned long long MOD = 998244353;
+using namespace std;
 
-class Matrix {
+// 表示图中的边的结构体模板
+template <typename T>
+struct Edge {
+    int destination;  // 目标顶点
+    T weight;         // 权重
+};
+
+// 表示图中的顶点的结构体模板
+template <typename T>
+struct Vertex {
+    vector<Edge<T>> edges;  // 邻接链表
+};
+
+// 表示动态分阶的图的类模板
+template <typename T>
+class DynamicStageGraph {
+private:
+    int numStages;                   // 图的阶段数
+    unordered_map<int, int> stages;  // 顶点所属的阶段
+
 public:
-    unsigned long long a, b, c, d;
+    vector<Vertex<T>> graph;         // 图的顶点集合
 
-    Matrix() : a(1), b(1), c(1), d(0) {}
+    // 构造函数
+    DynamicStageGraph() : numStages(0) {
+        // 初始化图的每个阶段
+        graph.emplace_back();  // 添加一个空的阶段，使图从1开始
+    }
 
-    Matrix(unsigned long long a, unsigned long long b, unsigned long long c, unsigned long long d)
-            : a(a), b(b), c(c), d(d) {}
+    // 添加边的方法
+    void addEdge(int source, int destination, T weight) {
+        Edge<T> edge = {destination, weight};
+        graph[source].edges.push_back(edge);
+        updateStages(source, destination);
+    }
 
-    Matrix operator*(const Matrix& other) const {
-        unsigned long long new_a = (a * other.a + b * other.c) % MOD;
-        unsigned long long new_b = (a * other.b + b * other.d) % MOD;
-        unsigned long long new_c = (c * other.a + d * other.c) % MOD;
-        unsigned long long new_d = (c * other.b + d * other.d) % MOD;
+    // 更新顶点的阶段信息
+    void updateStages(int source, int destination) {
+        stages[source] = numStages;
+        stages[destination] = numStages + 1;
+        numStages += 2;
 
-        return Matrix(new_a, new_b, new_c, new_d);
+        // 确保图的每个阶段都有对应的空顶点
+        while (graph.size() <= numStages) {
+            graph.emplace_back();
+        }
+    }
+
+    // 打印图的方法
+    void printGraph() {
+        for (int i = 1; i < graph.size(); ++i) {
+            cout << "Stage " << i << ": ";
+            for (const Edge<T>& edge : graph[i].edges) {
+                cout << "(" << edge.destination << ", " << edge.weight << ") ";
+            }
+            cout << endl;
+        }
     }
 };
 
-Matrix matrix_pow(Matrix M, unsigned long long n) {
-    Matrix result;
-    while (n > 0) {
-        if (n % 2 == 1) {
-            result = result * M;
-        }
-        M = M * M;
-        n /= 2;
-    }
-    return result;
-}
-
-unsigned long long fibonacci(unsigned long long n) {
-    if (n == 0) return 0;
-    if (n == 1) return 1;
-
-    Matrix base_matrix;
-    Matrix result_matrix = matrix_pow(base_matrix, n - 1);
-
-    return result_matrix.a;
-}
-
 int main() {
-    unsigned long long n;
-    std::cout << "请输入要求解的斐波那契数列的项数n：";
-    std::cin >> n;
+    // 创建动态分阶的图对象，使用int类型作为权重的例子
+    DynamicStageGraph<int> graph;
 
-    unsigned long long result = fibonacci(n) % MOD;
-    std::cout << "第 " << n << " 项的斐波那契数是：" << result << std::endl;
+    // 添加边
+    graph.addEdge(1, 2, 3);
+    graph.addEdge(1, 3, 2);
+    graph.addEdge(2, 4, 1);
+    graph.addEdge(2, 5, 4);
+    graph.addEdge(3, 6, 2);
+    graph.addEdge(3, 7, 5);
+
+    // 打印图
+    graph.printGraph();
 
     return 0;
 }
