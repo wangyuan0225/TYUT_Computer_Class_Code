@@ -22,9 +22,11 @@ const int INFTY = 1e9;
 
 template<class T>
 struct ENode {
-    int adjVex;//顶点编号
-    T w;//赋权值weight
-    ENode<T> *nextArc;//相邻链表存储相邻顶点编号
+    int adjVex;         //顶点编号
+    T w;                //赋权值weight
+    //用于连接同一个顶点的所有出边，形成一个链表。
+    //这种表示方法允许有效地存储和遍历从特定顶点出发的所有边。
+    ENode<T> *nextArc;
 
     ENode() : nextArc(nullptr) {}
 
@@ -34,11 +36,12 @@ struct ENode {
 template<class T>
 class Graph {
 public:
-    ENode<T> **a;//二级指针
-    int n;
+    ENode<T> **a;       //二级指针，存储所有顶点
+    int n;              //存储顶点数目
 
     Graph(int size) : n(size) {
         a = new ENode<T> *[n];
+        //初始化顶点数组为空指针
         for (int i = 0; i < n; ++i) {
             a[i] = nullptr;
         }
@@ -48,17 +51,21 @@ public:
         for (int i = 0; i < n; ++i) {
             ENode<T> *node = a[i];
             while (node != nullptr) {
+                //定义temp防止删除的时候无法访问到删除顶点的邻接顶点
                 ENode<T> *temp = node;
                 node = node->nextArc;
                 delete temp;
             }
         }
+        //构造函数中new出来的a，需要用delete[]删除
         delete[] a;
     }
 
     void addEdge(int start, int end, T weight) {
         ENode<T> *newEdge = new ENode<T>(end, weight);
+        //将新边的nextArc指针设置为当前起始顶点的邻接链表的头部
         newEdge->nextArc = a[start];
+        //将起始顶点的邻接链表头部更新为新边
         a[start] = newEdge;
     }
 

@@ -140,6 +140,72 @@ build generate.cpp.exe: CXX_EXECUTABLE_LINKER__generate.2ecpp_Debug CMakeFiles/g
   TARGET_PDB = generate.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target gettingChange1.cpp
+
+
+#############################################
+# Order-only phony target for gettingChange1.cpp
+
+build cmake_object_order_depends_target_gettingChange1.cpp: phony || CMakeFiles/gettingChange1.cpp.dir
+
+build CMakeFiles/gettingChange1.cpp.dir/gettingChange1.cpp.obj: CXX_COMPILER__gettingChange1.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/gettingChange1.cpp || cmake_object_order_depends_target_gettingChange1.cpp
+  DEP_FILE = CMakeFiles\gettingChange1.cpp.dir\gettingChange1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\gettingChange1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\gettingChange1.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gettingChange1.cpp
+
+
+#############################################
+# Link the executable gettingChange1.cpp.exe
+
+build gettingChange1.cpp.exe: CXX_EXECUTABLE_LINKER__gettingChange1.2ecpp_Debug CMakeFiles/gettingChange1.cpp.dir/gettingChange1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\gettingChange1.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = gettingChange1.cpp.exe
+  TARGET_IMPLIB = libgettingChange1.cpp.dll.a
+  TARGET_PDB = gettingChange1.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gettingChange2.cpp
+
+
+#############################################
+# Order-only phony target for gettingChange2.cpp
+
+build cmake_object_order_depends_target_gettingChange2.cpp: phony || CMakeFiles/gettingChange2.cpp.dir
+
+build CMakeFiles/gettingChange2.cpp.dir/gettingChange2.cpp.obj: CXX_COMPILER__gettingChange2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/gettingChange2.cpp || cmake_object_order_depends_target_gettingChange2.cpp
+  DEP_FILE = CMakeFiles\gettingChange2.cpp.dir\gettingChange2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\gettingChange2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\gettingChange2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gettingChange2.cpp
+
+
+#############################################
+# Link the executable gettingChange2.cpp.exe
+
+build gettingChange2.cpp.exe: CXX_EXECUTABLE_LINKER__gettingChange2.2ecpp_Debug CMakeFiles/gettingChange2.cpp.dir/gettingChange2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\gettingChange2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = gettingChange2.cpp.exe
+  TARGET_IMPLIB = libgettingChange2.cpp.dll.a
+  TARGET_PDB = gettingChange2.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target multiSegmentDiagrams.cpp
 
 
@@ -171,6 +237,72 @@ build multiSegmentDiagrams.cpp.exe: CXX_EXECUTABLE_LINKER__multiSegmentDiagrams.
   TARGET_FILE = multiSegmentDiagrams.cpp.exe
   TARGET_IMPLIB = libmultiSegmentDiagrams.cpp.dll.a
   TARGET_PDB = multiSegmentDiagrams.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Order-only phony target for test.cpp
+
+build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
+
+build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/test.cpp || cmake_object_order_depends_target_test.cpp
+  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test.cpp
+
+
+#############################################
+# Link the executable test.cpp.exe
+
+build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test.cpp.exe
+  TARGET_IMPLIB = libtest.cpp.dll.a
+  TARGET_PDB = test.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test2.cpp
+
+
+#############################################
+# Order-only phony target for test2.cpp
+
+build cmake_object_order_depends_target_test2.cpp: phony || CMakeFiles/test2.cpp.dir
+
+build CMakeFiles/test2.cpp.dir/test2.cpp.obj: CXX_COMPILER__test2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/test2.cpp || cmake_object_order_depends_target_test2.cpp
+  DEP_FILE = CMakeFiles\test2.cpp.dir\test2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test2.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test2.cpp
+
+
+#############################################
+# Link the executable test2.cpp.exe
+
+build test2.cpp.exe: CXX_EXECUTABLE_LINKER__test2.2ecpp_Debug CMakeFiles/test2.cpp.dir/test2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test2.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test2.cpp.exe
+  TARGET_IMPLIB = libtest2.cpp.dll.a
+  TARGET_PDB = test2.cpp.exe.dbg
 
 
 #############################################
@@ -204,7 +336,15 @@ build fibonacciSequence.cpp: phony fibonacciSequence.cpp.exe
 
 build generate.cpp: phony generate.cpp.exe
 
+build gettingChange1.cpp: phony gettingChange1.cpp.exe
+
+build gettingChange2.cpp: phony gettingChange2.cpp.exe
+
 build multiSegmentDiagrams.cpp: phony multiSegmentDiagrams.cpp.exe
+
+build test.cpp: phony test.cpp.exe
+
+build test2.cpp: phony test2.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -214,7 +354,7 @@ build multiSegmentDiagrams.cpp: phony multiSegmentDiagrams.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug
 
-build all: phony count.cpp.exe fibonacciSequence.cpp.exe generate.cpp.exe multiSegmentDiagrams.cpp.exe
+build all: phony count.cpp.exe fibonacciSequence.cpp.exe generate.cpp.exe gettingChange1.cpp.exe gettingChange2.cpp.exe multiSegmentDiagrams.cpp.exe test.cpp.exe test2.cpp.exe
 
 # =============================================================================
 # Built-in targets
