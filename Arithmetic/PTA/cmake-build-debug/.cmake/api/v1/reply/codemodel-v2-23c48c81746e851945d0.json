@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PTA",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "count.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-count.cpp-Debug-b733466907aae6631c6e.json",
+					"name" : "count.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacciSequence.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacciSequence.cpp-Debug-a96cb60059d0ca789d62.json",
+					"name" : "fibonacciSequence.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate.cpp-Debug-ab54bca76721571db6f2.json",
+					"name" : "generate.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gettingChange1.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gettingChange1.cpp-Debug-b8f436222620882f17a5.json",
+					"name" : "gettingChange1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gettingChange2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gettingChange2.cpp-Debug-7ebed1b6b42f5249cc7b.json",
+					"name" : "gettingChange2.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multiSegmentDiagrams.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multiSegmentDiagrams.cpp-Debug-35016f50231c329e8936.json",
+					"name" : "multiSegmentDiagrams.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test.cpp-Debug-f232941d5025d6119f34.json",
+					"name" : "test.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test2.cpp-Debug-a67f2d8ea6b92b7271d8.json",
+					"name" : "test2.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug",
+		"source" : "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
