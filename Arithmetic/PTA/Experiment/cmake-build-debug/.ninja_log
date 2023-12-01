@@ -1,0 +1,13 @@
+# ninja log v5
+2	331	7231374082927990	CMakeFiles/soldiersInFormation.cpp.dir/soldiersInFormation.cpp.obj	2b0896de4447336
+3	428	7231410769174097	CMakeFiles/test2.cpp.dir/test2.cpp.obj	50381d6be9d93c4b
+2	567	7231401154169587	CMakeFiles/test.cpp.dir/test.cpp.obj	2e4e431d21e38907
+332	439	7231374083968234	soldiersInFormation.cpp.exe	ae1ecd7a6b0ad098
+388	504	7231456883733727	trueBackpackStory.cpp.exe	7faa49b64aa60eee
+568	711	7231401155573089	test.cpp.exe	a5e1ee4ef3b77947
+428	551	7231410770371386	test2.cpp.exe	fc9519db679565ac
+3	387	7231456882605775	CMakeFiles/trueBackpackStory.cpp.dir/trueBackpackStory.cpp.obj	364fb73d1b91120f
+3	343	7231460986828535	CMakeFiles/subsetSumsProblem.cpp.dir/subsetSumsProblem.cpp.obj	8cdd71eaf4807233
+343	454	7231460987915453	subsetSumsProblem.cpp.exe	7bf8e5191592e80c
+1	416	7231480048118341	CMakeFiles/0-1backpack.cpp.dir/0-1backpack.cpp.obj	fb3bf53595367fc2
+417	552	7231480049440762	0-1backpack.cpp.exe	22b7617628882e60

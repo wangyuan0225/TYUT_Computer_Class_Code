@@ -1,75 +1,69 @@
 #include <iostream>
-#include <vector>
-
+#include <cstring>
 using namespace std;
 
-const int INFTY = 1e9;
+const int MAXN = 128;
 
-int findMinWeight(int n, int k, int Y, int *p, int *w, int *x, int **r) {
-    if (Y == 0) {
-        return 0;
-    }
-    if (k < 0) {
-        return INFTY;
-    }
-
-    if (r[k][Y] != -1) { // 如果此子问题已解决，直接返回结果
-        return r[k][Y];
-    }
-
-    int minWeight = INFTY;
-    int minIdx = 0;
-    for (int i = 0; i <= Y / p[k]; i++) {
-        int weight = i * w[k] + findMinWeight(n, k - 1, Y - i * p[k], p, w, x, r);
-        if (weight < minWeight) {
-            minWeight = weight;
-            minIdx = i;
-        }
-    }
-
-    x[k] = minIdx; // 存储当前硬币的最优数量
-    r[k][Y] = minWeight; // 存储当前最小总重量
-    return minWeight;
-}
+int p[MAXN], w[MAXN];
+int dp[MAXN][MAXN], ik[MAXN][MAXN];
+int coinCount[MAXN];
 
 int main() {
     int n, Y;
     cin >> n >> Y;
-    int *p = new int[n];
-    int *w = new int[n];
-    int *x = new int[n]();
-    int **r = new int*[n];
 
-    for (int i = 0; i < n; ++i) {
-        r[i] = new int[Y + 1];
-        fill_n(r[i], Y + 1, -1);
+    for (int i = 0; i < n; i++) {
+        cin >> p[i];
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> w[i];
     }
 
-    findMinWeight(n, n - 1, Y, p, w, x, r);
+    memset(dp, 64, sizeof(dp));
+    memset(ik, 0, sizeof(ik));
 
-    // 回溯过程
-    int remainingY = Y;
-    for (int i = n - 1; i >= 0; --i) {
-        int coinCount = 0;
-        while (remainingY > 0 && i > 0 && r[i][remainingY] < r[i-1][remainingY]) {
-            coinCount++;
-            remainingY -= p[i];
+    dp[0][0] = 0;
+
+    for (int k = 1; k <= n; k++) {
+        for (int y = 0; y <= Y; y++) {
+            if (y >= p[k-1]) {
+                int option1 = dp[k-1][y];
+                int option2 = w[k-1] + dp[k][y - p[k-1]];
+                if (option1 < option2) {
+                    dp[k][y] = option1;
+                    ik[k][y] = ik[k-1][y];
+                } else {
+                    dp[k][y] = option2;
+                    ik[k][y] = k;
+                }
+            } else {
+                dp[k][y] = dp[k-1][y];
+                ik[k][y] = ik[k-1][y];
+            }
         }
-        if (i == 0) { // 第一种硬币特殊处理
-            coinCount = remainingY / p[0];
-        }
-        cout << coinCount << " ";
     }
-    cout << endl;
 
-    cout << r[n - 1][Y] << endl; // 输出最小总重量
-
-    delete[] x;
-    delete[] p;
-    delete[] w;
-    for (int i = 0; i < n; ++i) {
-        delete[] r[i];
+    int k = n;
+    int y = Y;
+    while (y > 0 && k >= 1) {
+        ///cout << ik[k][y] << endl;
+        coinCount[ik[k][y]]++;
+        y = y - p[ik[k][y]-1];
+        k = k - 1;
     }
-    delete[] r;
+
+
+    int totalWeight = 0;
+    for (int i = 1; i <= n; i++) {
+        totalWeight += coinCount[i] * w[i-1];
+    }
+
+    for (int i = 1; i < n; i++) {
+        cout << coinCount[i] << " ";
+    }
+
+    cout << coinCount[n] <<endl;
+    cout << totalWeight ;
+
     return 0;
 }

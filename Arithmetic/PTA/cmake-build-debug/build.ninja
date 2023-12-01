@@ -304,6 +304,39 @@ build test2.cpp.exe: CXX_EXECUTABLE_LINKER__test2.2ecpp_Debug CMakeFiles/test2.c
   TARGET_IMPLIB = libtest2.cpp.dll.a
   TARGET_PDB = test2.cpp.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test3.cpp
+
+
+#############################################
+# Order-only phony target for test3.cpp
+
+build cmake_object_order_depends_target_test3.cpp: phony || CMakeFiles/test3.cpp.dir
+
+build CMakeFiles/test3.cpp.dir/test3.cpp.obj: CXX_COMPILER__test3.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/test3.cpp || cmake_object_order_depends_target_test3.cpp
+  DEP_FILE = CMakeFiles\test3.cpp.dir\test3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\test3.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test3.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test3.cpp
+
+
+#############################################
+# Link the executable test3.cpp.exe
+
+build test3.cpp.exe: CXX_EXECUTABLE_LINKER__test3.2ecpp_Debug CMakeFiles/test3.cpp.dir/test3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\test3.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = test3.cpp.exe
+  TARGET_IMPLIB = libtest3.cpp.dll.a
+  TARGET_PDB = test3.cpp.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build test.cpp: phony test.cpp.exe
 
 build test2.cpp: phony test2.cpp.exe
 
+build test3.cpp: phony test3.cpp.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build test2.cpp: phony test2.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug
 
-build all: phony count.cpp.exe fibonacciSequence.cpp.exe generate.cpp.exe gettingChange1.cpp.exe gettingChange2.cpp.exe multiSegmentDiagrams.cpp.exe test.cpp.exe test2.cpp.exe
+build all: phony count.cpp.exe fibonacciSequence.cpp.exe generate.cpp.exe gettingChange1.cpp.exe gettingChange2.cpp.exe multiSegmentDiagrams.cpp.exe test.cpp.exe test2.cpp.exe test3.cpp.exe
 
 # =============================================================================
 # Built-in targets
