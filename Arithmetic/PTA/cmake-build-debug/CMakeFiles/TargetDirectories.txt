@@ -7,5 +7,7 @@ D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/m
 D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/test.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/test2.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/test3.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/test4.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/travelingSalesman.cpp.dir
 D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

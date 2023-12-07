@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 0-1backpack-en.cpp
+
+
+#############################################
+# Order-only phony target for 0-1backpack-en.cpp
+
+build cmake_object_order_depends_target_0-1backpack-en.cpp: phony || CMakeFiles/0-1backpack-en.cpp.dir
+
+build CMakeFiles/0-1backpack-en.cpp.dir/0-1backpack-en.cpp.obj: CXX_COMPILER__0-1backpack-en.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/0-1backpack-en.cpp || cmake_object_order_depends_target_0-1backpack-en.cpp
+  DEP_FILE = CMakeFiles\0-1backpack-en.cpp.dir\0-1backpack-en.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\0-1backpack-en.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\0-1backpack-en.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0-1backpack-en.cpp
+
+
+#############################################
+# Link the executable 0-1backpack-en.cpp.exe
+
+build 0-1backpack-en.cpp.exe: CXX_EXECUTABLE_LINKER__0-1backpack-en.2ecpp_Debug CMakeFiles/0-1backpack-en.cpp.dir/0-1backpack-en.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\0-1backpack-en.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 0-1backpack-en.cpp.exe
+  TARGET_IMPLIB = lib0-1backpack-en.cpp.dll.a
+  TARGET_PDB = 0-1backpack-en.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 0-1backpack.cpp
 
 
@@ -74,202 +107,169 @@ build 0-1backpack.cpp.exe: CXX_EXECUTABLE_LINKER__0-1backpack.2ecpp_Debug CMakeF
   TARGET_PDB = 0-1backpack.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target singleSourceShortestPath.cpp
+# Object build statements for EXECUTABLE target singleSourceShortestPath-en.cpp
 
 
 #############################################
-# Order-only phony target for singleSourceShortestPath.cpp
+# Order-only phony target for singleSourceShortestPath-en.cpp
 
-build cmake_object_order_depends_target_singleSourceShortestPath.cpp: phony || CMakeFiles/singleSourceShortestPath.cpp.dir
+build cmake_object_order_depends_target_singleSourceShortestPath-en.cpp: phony || CMakeFiles/singleSourceShortestPath-en.cpp.dir
 
-build CMakeFiles/singleSourceShortestPath.cpp.dir/singleSourceShortestPath.cpp.obj: CXX_COMPILER__singleSourceShortestPath.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/singleSourceShortestPath.cpp || cmake_object_order_depends_target_singleSourceShortestPath.cpp
-  DEP_FILE = CMakeFiles\singleSourceShortestPath.cpp.dir\singleSourceShortestPath.cpp.obj.d
+build CMakeFiles/singleSourceShortestPath-en.cpp.dir/singleSourceShortestPath-en.cpp.obj: CXX_COMPILER__singleSourceShortestPath-en.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/singleSourceShortestPath-en.cpp || cmake_object_order_depends_target_singleSourceShortestPath-en.cpp
+  DEP_FILE = CMakeFiles\singleSourceShortestPath-en.cpp.dir\singleSourceShortestPath-en.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\singleSourceShortestPath.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\singleSourceShortestPath.cpp.dir
+  OBJECT_DIR = CMakeFiles\singleSourceShortestPath-en.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\singleSourceShortestPath-en.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target singleSourceShortestPath.cpp
+# Link build statements for EXECUTABLE target singleSourceShortestPath-en.cpp
 
 
 #############################################
-# Link the executable singleSourceShortestPath.cpp.exe
+# Link the executable singleSourceShortestPath-en.cpp.exe
 
-build singleSourceShortestPath.cpp.exe: CXX_EXECUTABLE_LINKER__singleSourceShortestPath.2ecpp_Debug CMakeFiles/singleSourceShortestPath.cpp.dir/singleSourceShortestPath.cpp.obj
+build singleSourceShortestPath-en.cpp.exe: CXX_EXECUTABLE_LINKER__singleSourceShortestPath-en.2ecpp_Debug CMakeFiles/singleSourceShortestPath-en.cpp.dir/singleSourceShortestPath-en.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\singleSourceShortestPath.cpp.dir
+  OBJECT_DIR = CMakeFiles\singleSourceShortestPath-en.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = singleSourceShortestPath.cpp.exe
-  TARGET_IMPLIB = libsingleSourceShortestPath.cpp.dll.a
-  TARGET_PDB = singleSourceShortestPath.cpp.exe.dbg
+  TARGET_FILE = singleSourceShortestPath-en.cpp.exe
+  TARGET_IMPLIB = libsingleSourceShortestPath-en.cpp.dll.a
+  TARGET_PDB = singleSourceShortestPath-en.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target soldiersInFormation.cpp
+# Object build statements for EXECUTABLE target soldiersInFormation-en.cpp
 
 
 #############################################
-# Order-only phony target for soldiersInFormation.cpp
+# Order-only phony target for soldiersInFormation-en.cpp
 
-build cmake_object_order_depends_target_soldiersInFormation.cpp: phony || CMakeFiles/soldiersInFormation.cpp.dir
+build cmake_object_order_depends_target_soldiersInFormation-en.cpp: phony || CMakeFiles/soldiersInFormation-en.cpp.dir
 
-build CMakeFiles/soldiersInFormation.cpp.dir/soldiersInFormation.cpp.obj: CXX_COMPILER__soldiersInFormation.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/soldiersInFormation.cpp || cmake_object_order_depends_target_soldiersInFormation.cpp
-  DEP_FILE = CMakeFiles\soldiersInFormation.cpp.dir\soldiersInFormation.cpp.obj.d
+build CMakeFiles/soldiersInFormation-en.cpp.dir/soldiersInFormation-en.cpp.obj: CXX_COMPILER__soldiersInFormation-en.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/soldiersInFormation-en.cpp || cmake_object_order_depends_target_soldiersInFormation-en.cpp
+  DEP_FILE = CMakeFiles\soldiersInFormation-en.cpp.dir\soldiersInFormation-en.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\soldiersInFormation.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\soldiersInFormation.cpp.dir
+  OBJECT_DIR = CMakeFiles\soldiersInFormation-en.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\soldiersInFormation-en.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target soldiersInFormation.cpp
+# Link build statements for EXECUTABLE target soldiersInFormation-en.cpp
 
 
 #############################################
-# Link the executable soldiersInFormation.cpp.exe
+# Link the executable soldiersInFormation-en.cpp.exe
 
-build soldiersInFormation.cpp.exe: CXX_EXECUTABLE_LINKER__soldiersInFormation.2ecpp_Debug CMakeFiles/soldiersInFormation.cpp.dir/soldiersInFormation.cpp.obj
+build soldiersInFormation-en.cpp.exe: CXX_EXECUTABLE_LINKER__soldiersInFormation-en.2ecpp_Debug CMakeFiles/soldiersInFormation-en.cpp.dir/soldiersInFormation-en.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\soldiersInFormation.cpp.dir
+  OBJECT_DIR = CMakeFiles\soldiersInFormation-en.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = soldiersInFormation.cpp.exe
-  TARGET_IMPLIB = libsoldiersInFormation.cpp.dll.a
-  TARGET_PDB = soldiersInFormation.cpp.exe.dbg
+  TARGET_FILE = soldiersInFormation-en.cpp.exe
+  TARGET_IMPLIB = libsoldiersInFormation-en.cpp.dll.a
+  TARGET_PDB = soldiersInFormation-en.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target subsetSumsProblem.cpp
+# Object build statements for EXECUTABLE target subsetSumsProblem-en.cpp
 
 
 #############################################
-# Order-only phony target for subsetSumsProblem.cpp
+# Order-only phony target for subsetSumsProblem-en.cpp
 
-build cmake_object_order_depends_target_subsetSumsProblem.cpp: phony || CMakeFiles/subsetSumsProblem.cpp.dir
+build cmake_object_order_depends_target_subsetSumsProblem-en.cpp: phony || CMakeFiles/subsetSumsProblem-en.cpp.dir
 
-build CMakeFiles/subsetSumsProblem.cpp.dir/subsetSumsProblem.cpp.obj: CXX_COMPILER__subsetSumsProblem.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/subsetSumsProblem.cpp || cmake_object_order_depends_target_subsetSumsProblem.cpp
-  DEP_FILE = CMakeFiles\subsetSumsProblem.cpp.dir\subsetSumsProblem.cpp.obj.d
+build CMakeFiles/subsetSumsProblem-en.cpp.dir/subsetSumsProblem-en.cpp.obj: CXX_COMPILER__subsetSumsProblem-en.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/subsetSumsProblem-en.cpp || cmake_object_order_depends_target_subsetSumsProblem-en.cpp
+  DEP_FILE = CMakeFiles\subsetSumsProblem-en.cpp.dir\subsetSumsProblem-en.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\subsetSumsProblem.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\subsetSumsProblem.cpp.dir
+  OBJECT_DIR = CMakeFiles\subsetSumsProblem-en.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\subsetSumsProblem-en.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target subsetSumsProblem.cpp
+# Link build statements for EXECUTABLE target subsetSumsProblem-en.cpp
 
 
 #############################################
-# Link the executable subsetSumsProblem.cpp.exe
+# Link the executable subsetSumsProblem-en.cpp.exe
 
-build subsetSumsProblem.cpp.exe: CXX_EXECUTABLE_LINKER__subsetSumsProblem.2ecpp_Debug CMakeFiles/subsetSumsProblem.cpp.dir/subsetSumsProblem.cpp.obj
+build subsetSumsProblem-en.cpp.exe: CXX_EXECUTABLE_LINKER__subsetSumsProblem-en.2ecpp_Debug CMakeFiles/subsetSumsProblem-en.cpp.dir/subsetSumsProblem-en.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\subsetSumsProblem.cpp.dir
+  OBJECT_DIR = CMakeFiles\subsetSumsProblem-en.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = subsetSumsProblem.cpp.exe
-  TARGET_IMPLIB = libsubsetSumsProblem.cpp.dll.a
-  TARGET_PDB = subsetSumsProblem.cpp.exe.dbg
+  TARGET_FILE = subsetSumsProblem-en.cpp.exe
+  TARGET_IMPLIB = libsubsetSumsProblem-en.cpp.dll.a
+  TARGET_PDB = subsetSumsProblem-en.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test2.cpp
+# Object build statements for EXECUTABLE target test.cpp
 
 
 #############################################
-# Order-only phony target for test2.cpp
+# Order-only phony target for test.cpp
 
-build cmake_object_order_depends_target_test2.cpp: phony || CMakeFiles/test2.cpp.dir
+build cmake_object_order_depends_target_test.cpp: phony || CMakeFiles/test.cpp.dir
 
-build CMakeFiles/test2.cpp.dir/test2.cpp.obj: CXX_COMPILER__test2.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/test2.cpp || cmake_object_order_depends_target_test2.cpp
-  DEP_FILE = CMakeFiles\test2.cpp.dir\test2.cpp.obj.d
+build CMakeFiles/test.cpp.dir/test.cpp.obj: CXX_COMPILER__test.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/test.cpp || cmake_object_order_depends_target_test.cpp
+  DEP_FILE = CMakeFiles\test.cpp.dir\test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test2.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test2.cpp.dir
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test2.cpp
+# Link build statements for EXECUTABLE target test.cpp
 
 
 #############################################
-# Link the executable test2.cpp.exe
+# Link the executable test.cpp.exe
 
-build test2.cpp.exe: CXX_EXECUTABLE_LINKER__test2.2ecpp_Debug CMakeFiles/test2.cpp.dir/test2.cpp.obj
+build test.cpp.exe: CXX_EXECUTABLE_LINKER__test.2ecpp_Debug CMakeFiles/test.cpp.dir/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test2.cpp.dir
+  OBJECT_DIR = CMakeFiles\test.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test2.cpp.exe
-  TARGET_IMPLIB = libtest2.cpp.dll.a
-  TARGET_PDB = test2.cpp.exe.dbg
+  TARGET_FILE = test.cpp.exe
+  TARGET_IMPLIB = libtest.cpp.dll.a
+  TARGET_PDB = test.cpp.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test5.cpp
+# Object build statements for EXECUTABLE target trueBackpackStory-en.cpp
 
 
 #############################################
-# Order-only phony target for test5.cpp
+# Order-only phony target for trueBackpackStory-en.cpp
 
-build cmake_object_order_depends_target_test5.cpp: phony || CMakeFiles/test5.cpp.dir
+build cmake_object_order_depends_target_trueBackpackStory-en.cpp: phony || CMakeFiles/trueBackpackStory-en.cpp.dir
 
-build CMakeFiles/test5.cpp.dir/test5.cpp.obj: CXX_COMPILER__test5.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/test5.cpp || cmake_object_order_depends_target_test5.cpp
-  DEP_FILE = CMakeFiles\test5.cpp.dir\test5.cpp.obj.d
+build CMakeFiles/trueBackpackStory-en.cpp.dir/trueBackpackStory-en.cpp.obj: CXX_COMPILER__trueBackpackStory-en.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/trueBackpackStory-en.cpp || cmake_object_order_depends_target_trueBackpackStory-en.cpp
+  DEP_FILE = CMakeFiles\trueBackpackStory-en.cpp.dir\trueBackpackStory-en.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test5.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\test5.cpp.dir
+  OBJECT_DIR = CMakeFiles\trueBackpackStory-en.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\trueBackpackStory-en.cpp.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test5.cpp
+# Link build statements for EXECUTABLE target trueBackpackStory-en.cpp
 
 
 #############################################
-# Link the executable test5.cpp.exe
+# Link the executable trueBackpackStory-en.cpp.exe
 
-build test5.cpp.exe: CXX_EXECUTABLE_LINKER__test5.2ecpp_Debug CMakeFiles/test5.cpp.dir/test5.cpp.obj
+build trueBackpackStory-en.cpp.exe: CXX_EXECUTABLE_LINKER__trueBackpackStory-en.2ecpp_Debug CMakeFiles/trueBackpackStory-en.cpp.dir/trueBackpackStory-en.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test5.cpp.dir
+  OBJECT_DIR = CMakeFiles\trueBackpackStory-en.cpp.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test5.cpp.exe
-  TARGET_IMPLIB = libtest5.cpp.dll.a
-  TARGET_PDB = test5.cpp.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target trueBackpackStory.cpp
-
-
-#############################################
-# Order-only phony target for trueBackpackStory.cpp
-
-build cmake_object_order_depends_target_trueBackpackStory.cpp: phony || CMakeFiles/trueBackpackStory.cpp.dir
-
-build CMakeFiles/trueBackpackStory.cpp.dir/trueBackpackStory.cpp.obj: CXX_COMPILER__trueBackpackStory.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/trueBackpackStory.cpp || cmake_object_order_depends_target_trueBackpackStory.cpp
-  DEP_FILE = CMakeFiles\trueBackpackStory.cpp.dir\trueBackpackStory.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\trueBackpackStory.cpp.dir
-  OBJECT_FILE_DIR = CMakeFiles\trueBackpackStory.cpp.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target trueBackpackStory.cpp
-
-
-#############################################
-# Link the executable trueBackpackStory.cpp.exe
-
-build trueBackpackStory.cpp.exe: CXX_EXECUTABLE_LINKER__trueBackpackStory.2ecpp_Debug CMakeFiles/trueBackpackStory.cpp.dir/trueBackpackStory.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\trueBackpackStory.cpp.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = trueBackpackStory.cpp.exe
-  TARGET_IMPLIB = libtrueBackpackStory.cpp.dll.a
-  TARGET_PDB = trueBackpackStory.cpp.exe.dbg
+  TARGET_FILE = trueBackpackStory-en.cpp.exe
+  TARGET_IMPLIB = libtrueBackpackStory-en.cpp.dll.a
+  TARGET_PDB = trueBackpackStory-en.cpp.exe.dbg
 
 
 #############################################
@@ -297,19 +297,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 0-1backpack-en.cpp: phony 0-1backpack-en.cpp.exe
+
 build 0-1backpack.cpp: phony 0-1backpack.cpp.exe
 
-build singleSourceShortestPath.cpp: phony singleSourceShortestPath.cpp.exe
+build singleSourceShortestPath-en.cpp: phony singleSourceShortestPath-en.cpp.exe
 
-build soldiersInFormation.cpp: phony soldiersInFormation.cpp.exe
+build soldiersInFormation-en.cpp: phony soldiersInFormation-en.cpp.exe
 
-build subsetSumsProblem.cpp: phony subsetSumsProblem.cpp.exe
+build subsetSumsProblem-en.cpp: phony subsetSumsProblem-en.cpp.exe
 
-build test2.cpp: phony test2.cpp.exe
+build test.cpp: phony test.cpp.exe
 
-build test5.cpp: phony test5.cpp.exe
-
-build trueBackpackStory.cpp: phony trueBackpackStory.cpp.exe
+build trueBackpackStory-en.cpp: phony trueBackpackStory-en.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -319,7 +319,7 @@ build trueBackpackStory.cpp: phony trueBackpackStory.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug
 
-build all: phony 0-1backpack.cpp.exe singleSourceShortestPath.cpp.exe soldiersInFormation.cpp.exe subsetSumsProblem.cpp.exe test2.cpp.exe test5.cpp.exe trueBackpackStory.cpp.exe
+build all: phony 0-1backpack-en.cpp.exe 0-1backpack.cpp.exe singleSourceShortestPath-en.cpp.exe soldiersInFormation-en.cpp.exe subsetSumsProblem-en.cpp.exe test.cpp.exe trueBackpackStory-en.cpp.exe
 
 # =============================================================================
 # Built-in targets
