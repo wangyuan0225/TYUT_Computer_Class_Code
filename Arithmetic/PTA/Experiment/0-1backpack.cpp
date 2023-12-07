@@ -13,34 +13,95 @@
   *                     个数据，分别表示第i(1≤i≤n)件物品的重量和价值。
   *                   输出格式:
   *                     输出装入背包中物品的最大总价值。
-  * @Date           : 2023-12-01  23:07
+  * @Date           : 2023-12-02  10:53
   * @Version        : 1.0
   ****************************************************************************************
   */
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-int main() {
-    int n, c;
-    cin >> n >> c;
-    vector<int> w(n + 1);
-    vector<int> v(n + 1);
-    for (int i = 1; i <= n; i++) {
-        cin >> w[i] >> v[i];
+// 定义物品结构体，包含物品的重量和价值
+struct Item {
+    int weight;
+    int value;
+};
+
+//自定义比较函数，按照价值/重量的比例对物品进行排序
+struct compare {
+    bool operator()(const Item& a, const Item& b) {
+        return (double)a.value / a.weight > (double)b.value / b.weight;
     }
-    vector<vector<int>> dp(n + 1, vector<int>(c + 1, 0));
-    for (int i = 1; i <= n; i++) {
-        for (int j = 0; j <= c; j++) {
-            if (j < w[i]) {
-                dp[i][j] = dp[i - 1][j];
-            } else {
-                dp[i][j] = max(dp[i - 1][j - w[i]] + v[i], dp[i - 1][j]);
-            }
+};
+
+/**
+ * 定义限界函数，计算当前解的上界
+ * @param capacity
+ * @param items
+ * @param current
+ * @return
+ */
+double bound(int capacity, vector<Item>& items, int current) {
+    double result = 0.0;
+    // 遍历剩余的物品
+    for (int i = current; i < items.size(); i++) {
+        // 如果背包的剩余容量大于等于当前物品的重量，就把当前物品装入背包
+        if (capacity >= items[i].weight) {
+            capacity -= items[i].weight;
+            result += items[i].value;
+        } else {
+            // 如果背包的剩余容量小于当前物品的重量，就按照价值/重量的比例把当前物品的一部分装入背包
+            result += (double)items[i].value / items[i].weight * capacity;
+            break;
         }
     }
-    cout << dp[n][c] << endl;
+    return result;
+}
+
+/**
+ * 定义回溯函数，搜索所有可能的解
+ * @param capacity
+ * @param items
+ * @param current
+ * @param value
+ * @param best
+ */
+void knapsack(int capacity, vector<Item>& items, int current, int value, int& best) {
+    // 如果已经考虑了所有的物品，就更新最优解
+    if (current == items.size()) {
+        best = max(best, value);
+        return;
+    }
+    // 如果当前的解加上剩余物品的最大可能价值仍然小于等于最优解，就剪枝
+    if (value + bound(capacity, items, current) <= best) {
+        return;
+    }
+    // 如果背包的剩余容量大于等于当前物品的重量，就尝试把当前物品装入背包
+    if (capacity >= items[current].weight) {
+        knapsack(capacity - items[current].weight, items, current + 1, value + items[current].value, best);
+    }
+    // 不论背包的剩余容量是否大于等于当前物品的重量，都尝试不把当前物品装入背包
+    knapsack(capacity, items, current + 1, value, best);
+}
+
+int main() {
+    int n, c;
+    // 读取物品的数量和背包的容量
+    cin >> n >> c;
+    vector<Item> items(n);
+    // 读取每个物品的重量和价值
+    for (int i = 0; i < n; i++) {
+        cin >> items[i].weight >> items[i].value;
+    }
+    // 按照价值/重量的比例对物品进行排序
+    sort(items.begin(), items.end(), compare());
+    int best = 0;
+    // 使用回溯法来找到最优解
+    knapsack(c, items, 0, 0, best);
+    // 输出最优解
+    cout << best << endl;
     return 0;
 }
