@@ -23,8 +23,8 @@ unsigned long long matrix[4] = {1, 1, 1, 0};
  * @param matrix2 矩阵2
  * @return result 两个矩阵相乘后的矩阵
  */
-unsigned long long *multiply_matrix(unsigned long long matrix1[4], unsigned long long matrix2[4]) {
-    unsigned long long *result = new unsigned long long[4];
+unsigned long long* multiply_matrix(unsigned long long matrix1[4], unsigned long long matrix2[4]) {
+    unsigned long long* result = new unsigned long long[4];
     result[0] = (matrix1[0] * matrix2[0] + matrix1[1] * matrix2[2]) % 998244353;
     result[1] = (matrix1[0] * matrix2[1] + matrix1[1] * matrix2[3]) % 998244353;
     result[2] = (matrix1[2] * matrix2[0] + matrix1[3] * matrix2[2]) % 998244353;
@@ -38,23 +38,21 @@ unsigned long long *multiply_matrix(unsigned long long matrix1[4], unsigned long
  * @param n 指数
  * @return 分奇偶情况返回两部分的乘积
  */
-unsigned long long *matrix_pow(unsigned long long matrix1[4], unsigned long long n) {
+unsigned long long* matrix_pow(unsigned long long matrix1[4], unsigned long long n) {
     if (n == 1) {
         return matrix;
-    } else if (n % 2 == 0) {
-        unsigned long long *halfMatrix = matrix_pow(matrix1, n / 2);
-        return multiply_matrix(halfMatrix, halfMatrix);
-    } else {
-        unsigned long long *halfMatrix = matrix_pow(matrix1, n / 2);
-        return multiply_matrix(multiply_matrix(halfMatrix, halfMatrix), matrix);
     }
+    unsigned long long* halfMatrix = matrix_pow(matrix1, n / 2);
+    if (n % 2 == 0) {
+        return multiply_matrix(halfMatrix, halfMatrix);
+    }
+    return multiply_matrix(multiply_matrix(halfMatrix, halfMatrix), matrix);
 }
 
 int main() {
     unsigned long long n;
     cin >> n;
-    unsigned long long *result = matrix_pow(matrix, n);
+    unsigned long long* result = matrix_pow(matrix, n);
     cout << result[1] % 998244353 << endl;
     return 0;
 }
-

@@ -34,7 +34,7 @@ struct Item {
 
 // Custom comparison function to sort items by value-to-weight ratio
 struct compare {
-    bool operator()(const Item& a, const Item& b) {
+    bool operator()(const Item& a, const Item& b) const {
         return (double)a.value / a.weight > (double)b.value / b.weight;
     }
 };

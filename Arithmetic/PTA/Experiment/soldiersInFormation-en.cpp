@@ -24,90 +24,80 @@
   * @Version        : 2.0 Added comments for key statements and introduced the use of divide and
   *                     conquer strategy, reflected in the quicksort.
   *                   3.0 Changed quicksort to mergesort.
+  *                   4.0 Changed mergesort to quickSelect. Thus, the true spirit of the divide
+  *                     and conquer algorithm can be fully embodied.
   ****************************************************************************************
   */
 
-#include <iostream>
 #include <algorithm>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
 /**
- * Merge two sorted arrays
- * @param a
- * @param s
- * @param m
- * @param e
- * @param tmp
+ * \brief Partition the array into two parts, the left part is less than the pivot,
+ * \param nums The array to be partitioned
+ * \param low The lower bound of the array
+ * \param high The upper bound of the array
+ * \return The index of the pivot
  */
-void Merge(int a[], int s, int m, int e, int tmp[]) {
-    int pb = 0;
-    int p1 = s, p2 = m + 1;
-    while (p1 <= m && p2 <= e) {
-        if (a[p1] < a[p2]) {
-            tmp[pb++] = a[p1++];
-        } else {
-            tmp[pb++] = a[p2++];
+int partition(vector<int>& nums, int low, int high) {
+    int pivot = nums[high];
+    int i = low;
+    for (int j = low; j < high; ++j) {
+        if (nums[j] < pivot) {
+            swap(nums[i], nums[j]);
+            ++i;
         }
     }
-    while (p1 <= m)
-        tmp[pb++] = a[p1++];
-    while (p2 <= e)
-        tmp[pb++] = a[p2++];
-    for (int i = 0; i < e - s + 1; ++i)
-        a[s + i] = tmp[i];
+    swap(nums[i], nums[high]);
+    return i;
 }
 
 /**
- * Merge sort
- * @param a
- * @param s
- * @param e
- * @param tmp
+ * \brief Find the kth smallest element in the array
+ * \param nums The array to be partitioned
+ * \param low The lower bound of the array
+ * \param high The upper bound of the array
+ * \param k The index of the kth smallest element
+ * \return The kth smallest element
  */
-void MergeSort(int a[], int s, int e, int tmp[]) {
-    if (s < e) {
-        int m = s + (e - s) / 2;
-        MergeSort(a, s, m, tmp);
-        MergeSort(a, m + 1, e, tmp);
-        Merge(a, s, m, e, tmp);
-    }
+int quickSelect(vector<int>& nums, int low, int high, int k) {
+    if (low == high) return nums[low];
+    int pi = partition(nums, low, high);
+    if (k == pi)
+        return nums[pi];
+    if (k < pi)
+        return quickSelect(nums, low, pi - 1, k);
+    return quickSelect(nums, pi + 1, high, k);
+}
+
+int findMedian(vector<int>& nums) {
+    int n = nums.size();
+    return quickSelect(nums, 0, n - 1, n / 2);
 }
 
 int main() {
     int n;
     cin >> n;
-    int *x = new int[n];
-    int *y = new int[n];
-    int *tmp = new int[n];
+    vector<int> x(n), y(n);
+    vector<int> tmp(n);
 
     // Read the initial positions of each soldier
     for (int i = 0; i < n; i++) {
         cin >> x[i] >> y[i];
     }
 
-    // Use mergesort to sort x and y separately
-    MergeSort(x, 0, n - 1, tmp);
-    MergeSort(y, 0, n - 1, tmp);
+    sort(x.begin(), x.end());
 
     // Subtract i from each sorted x in order
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 0; i < n; ++i) {
         x[i] -= i;
     }
 
-    // Merge sort the sorted x again
-    MergeSort(x, 0, n - 1, tmp);
-
-    int rex, rey;
-
-    // If n is even, take the average of the middle two points in the sorted array as the median
-    if (n % 2 == 0) {
-        rex = (x[n / 2 - 1] + x[n / 2]) / 2;
-        rey = (y[n / 2 - 1] + y[n / 2]) / 2;
-    } else { // If n is odd, the middle point in the sorted array is the median
-        rex = x[n / 2];
-        rey = y[n / 2];
-    }
+    int rex = findMedian(x);
+    int rey = findMedian(y);
 
     int sum = 0;
     for (int i = 0; i < n; i++) {
@@ -117,8 +107,5 @@ int main() {
     // Print the result
     cout << sum << endl;
 
-    delete[] x;
-    delete[] y;
-    delete[] tmp;
     return 0;
 }

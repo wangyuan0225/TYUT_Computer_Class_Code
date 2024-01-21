@@ -25,30 +25,28 @@
   * @Version        : 2.0 Optimized the use of arrays
   *                   3.0 Optimized the algorithm using priority queue
   *                   4.0 Cancel the use of priority queues for implementation
+  *                   5.0 Optimized the algorithm using adjacency lists
   ****************************************************************************************
   */
 
 #include <iostream>
 #include <vector>
-#include <climits>
 
 using namespace std;
 
-const int INFTY = INT_MAX;
+const int INFTY = 1e9;
 
 struct Edge {
     int to;
     int weight;
 };
 
-typedef vector<vector<Edge>> Graph;
-
 /**
- * Dijkstra's algorithm without priority queue
+ * Dijkstra's algorithm
  * @param graph The graph
  * @param dist The shortest path lengths from the source vertex to each vertex
  */
-void dijkstra(const Graph &graph, vector<int> &dist) {
+void dijkstra(const vector<vector<Edge>> &graph, vector<int> &dist) {
     int n = graph.size();
     vector<bool> visited(n, false);
 
@@ -67,8 +65,9 @@ void dijkstra(const Graph &graph, vector<int> &dist) {
 
         visited[u] = true;
 
-        // Relaxation step
-        for (int j = 0; j < graph[u].size(); ++j) {
+        // Update the shortest paths of adjacent vertices.
+        int size = graph[u].size();
+        for (int j = 0; j < size; ++j) {
             const Edge &edge = graph[u][j];
             if (!visited[edge.to] && dist[edge.to] > dist[u] + edge.weight) {
                 dist[edge.to] = dist[u] + edge.weight;
@@ -81,14 +80,19 @@ int main() {
     int n, e;
     cin >> n >> e;
 
-    Graph graph(n);
+    vector<vector<Edge>> graph(n);
     vector<int> dist(n, INFTY);
-    dist[0] = 0; // The distance from the source vertex to itself is 0
+    // The distance from the source vertex to itself is 0
+    dist[0] = 0;
 
     for (int i = 0; i < e; ++i) {
         int a, b, c;
         cin >> a >> b >> c;
-        graph[a].push_back({b, c});
+
+        int index = graph[a].size();
+        graph[a].resize(index + 1);
+        graph[a][index].to = b;
+        graph[a][index].weight = c;
     }
 
     dijkstra(graph, dist);

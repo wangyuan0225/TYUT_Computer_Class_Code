@@ -62,11 +62,11 @@ void backtrack(vector<int> &S, vector<int> &solution, int sum, int index, int re
     if (sum > c || index == n) return;
 
     // Explore left subtree: include the current element
-    solution.push_back(S[index]);
+    solution[index] = S[index];
     backtrack(S, solution, sum + S[index], index + 1, remaining - S[index]);
 
     // Explore right subtree: exclude the current element
-    solution.pop_back();
+    solution[index] = 0;
     backtrack(S, solution, sum, index + 1, remaining - S[index]);
 }
 

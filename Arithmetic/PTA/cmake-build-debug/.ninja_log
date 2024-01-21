@@ -1,6 +1,6 @@
 # ninja log v5
 893	6982	7218552310850382	multiSegmentDiagrams.cpp.exe	73e59c2107364644
-4	389	7236583712678725	CMakeFiles/travelingSalesman.cpp.dir/travelingSalesman.cpp.obj	b50e015f52e1ec14
+5	565	7236694249814979	CMakeFiles/travelingSalesman.cpp.dir/travelingSalesman.cpp.obj	b50e015f52e1ec14
 271	370	7210394355169404	7-1.cpp.exe	ca1e4ecf02e06bad
 2	892	7218552250072613	CMakeFiles/multiSegmentDiagrams.cpp.dir/multiSegmentDiagrams.cpp.obj	71db11d533bda74c
 6	549	7221953029268650	CMakeFiles/gettingChange2.cpp.dir/gettingChange2.cpp.obj	1053d75f8d77a5a0
@@ -13,4 +13,12 @@
 4	520	7221945723764321	CMakeFiles/test2.cpp.dir/test2.cpp.obj	5a420e7ee13b59a6
 521	687	7221945725401716	test2.cpp.exe	fc9519db679565ac
 3	387	7231500982306502	CMakeFiles/test3.cpp.dir/test3.cpp.obj	1bcdc22bc609f8f8
-390	538	7236583714115505	travelingSalesman.cpp.exe	32cf7a4b9ec85004
+565	775	7236694251847725	travelingSalesman.cpp.exe	32cf7a4b9ec85004
+1	616	7251391218781347	CMakeFiles/fibonacciSequence.cpp.dir/fibonacciSequence.cpp.obj	6e96c19e13697cf4
+617	860	7251391221098251	fibonacciSequence.cpp.exe	563647b35183c848
+5	529	7251391291042111	CMakeFiles/fibonacciSequence.cpp.dir/fibonacciSequence.cpp.obj	6e96c19e13697cf4
+530	818	7251391292931398	fibonacciSequence.cpp.exe	563647b35183c848
+5	566	7251391369730260	CMakeFiles/fibonacciSequence.cpp.dir/fibonacciSequence.cpp.obj	6e96c19e13697cf4
+567	841	7251391371598753	fibonacciSequence.cpp.exe	563647b35183c848
+5	539	7251391444757852	CMakeFiles/fibonacciSequence.cpp.dir/fibonacciSequence.cpp.obj	6e96c19e13697cf4
+540	728	7251391446580606	fibonacciSequence.cpp.exe	563647b35183c848
