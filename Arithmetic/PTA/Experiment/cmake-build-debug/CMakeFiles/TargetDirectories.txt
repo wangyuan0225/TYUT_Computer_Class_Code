@@ -1,9 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/0-1backpack-en.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/0-1backpack.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/singleSourceShortestPath-en.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/soldiersInFormation-en.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/subsetSumsProblem-en.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/test.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/trueBackpackStory-en.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
