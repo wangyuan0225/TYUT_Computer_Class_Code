@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LQ",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "0001.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0001.cpp-Debug-5f62f2aaff74792f65b2.json",
+					"name" : "0001.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "0002.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0002.cpp-Debug-4d6b849a3342c61986a9.json",
+					"name" : "0002.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test.cpp-Debug-73de84136d971d8773e5.json",
+					"name" : "test.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C&Java/TYUT_Computer_Class_Code/LQ/cmake-build-debug",
+		"source" : "D:/C&Java/TYUT_Computer_Class_Code/LQ"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
