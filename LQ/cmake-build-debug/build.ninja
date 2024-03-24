@@ -173,6 +173,39 @@ build 3492.cpp.exe: CXX_EXECUTABLE_LINKER__3492.2ecpp_Debug CMakeFiles/3492.cpp.
   TARGET_PDB = 3492.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 3499.cpp
+
+
+#############################################
+# Order-only phony target for 3499.cpp
+
+build cmake_object_order_depends_target_3499.cpp: phony || CMakeFiles/3499.cpp.dir
+
+build CMakeFiles/3499.cpp.dir/3499.cpp.obj: CXX_COMPILER__3499.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/LQ/3499.cpp || cmake_object_order_depends_target_3499.cpp
+  DEP_FILE = CMakeFiles\3499.cpp.dir\3499.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3499.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\3499.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3499.cpp
+
+
+#############################################
+# Link the executable 3499.cpp.exe
+
+build 3499.cpp.exe: CXX_EXECUTABLE_LINKER__3499.2ecpp_Debug CMakeFiles/3499.cpp.dir/3499.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3499.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3499.cpp.exe
+  TARGET_IMPLIB = lib3499.cpp.dll.a
+  TARGET_PDB = 3499.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 4124.cpp
 
 
@@ -338,6 +371,8 @@ build 3491.cpp: phony 3491.cpp.exe
 
 build 3492.cpp: phony 3492.cpp.exe
 
+build 3499.cpp: phony 3499.cpp.exe
+
 build 4124.cpp: phony 4124.cpp.exe
 
 build 4985.cpp: phony 4985.cpp.exe
@@ -354,7 +389,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/LQ/cmake-build-debug
 
-build all: phony 0001.cpp.exe 0002.cpp.exe 3491.cpp.exe 3492.cpp.exe 4124.cpp.exe 4985.cpp.exe 5003.cpp.exe test.cpp.exe
+build all: phony 0001.cpp.exe 0002.cpp.exe 3491.cpp.exe 3492.cpp.exe 3499.cpp.exe 4124.cpp.exe 4985.cpp.exe 5003.cpp.exe test.cpp.exe
 
 # =============================================================================
 # Built-in targets
