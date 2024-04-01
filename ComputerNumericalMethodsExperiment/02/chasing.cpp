@@ -4,10 +4,11 @@
   * @BelongsProject : 02
   * @File           : chasing.cpp
   * @Author         : yuan wang (wy0225)
-  * @Brief          : None
+  * @Brief          : 利用追赶法求解给定的线性方程组
   * @Attention      : None
   * @Date           : 2024/3/21 22:25
   * @Version        : 1.0
+  *                   2.0 添加必要注释
   ****************************************************************************************
   */
 
@@ -18,6 +19,8 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
+
+    // LU 分解
     double l[n + 1][n + 1], u[n + 1][n + 1];
     for (int i = 1; i < n + 1; ++i) {
         for (int j = 1; j < n + 1; ++j) {
@@ -33,25 +36,14 @@ int main() {
         u[i][i + 1] = 1 / l[i][i];
     }
 
-//    for (int i = 1; i <= n; ++i) {
-//        for (int j = 1; j <= n; ++j) {
-//            cout << u[i][j] << " ";
-//        }
-//        cout << endl;
-//    }
-//    for (int i = 1; i <= n; ++i) {
-//        for (int j = 1; j <= n; ++j) {
-//            cout << l[i][j] << " ";
-//        }
-//        cout << endl;
-//    }
-
+    // 追
     double y[n + 1], x[n + 1];
     y[1] = -7 / l[1][1];
     for (int i = 2; i <= n; ++i) {
         y[i] = (-5 - l[i][i - 1] * y[i - 1]) / l[i][i];
     }
 
+    // 赶
     x[n] = y[n];
     for (int i = n - 1; i > 0; --i) {
         x[i] = y[i] - u[i][i + 1] * x[i + 1];
