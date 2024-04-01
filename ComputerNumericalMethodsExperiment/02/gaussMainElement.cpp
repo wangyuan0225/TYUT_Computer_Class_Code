@@ -4,10 +4,11 @@
   * @BelongsProject : 02
   * @File           : gaussMainElement.cpp
   * @Author         : yuan wang (wy0225)
-  * @Brief          : None
+  * @Brief          : 利用 Gauss 消元法求解给定的线性方程组，并采用完全主元素法进行优化
   * @Attention      : None
   * @Date           : 2024/3/19 22:35
   * @Version        : 1.0
+  *                   2.0 优化代码架构，采用常量表示，优化数组 a 为 2 维数组。
   ****************************************************************************************
   */
 
@@ -17,60 +18,73 @@
 
 using namespace std;
 
+const int n = 4;
+
 int main() {
-    double a[4][5][6] = {
+    double a[n + 1][n + 2] = {
             0, 0, 0, 0, 0, 0,
             0, 0.3e-15, 59.14, 3, 1, 59.17,
             0, 5.291, -6.130, -1, 2, 46.78,
             0, 11.2, 9, 5, 2, 1,
             0, 1, 2, 1, 1, 2
     };
-    double l[5][4];
-    int stand[5] = {0, 1, 2, 3, 4};
+    double l[n + 1][n];
 
-    for (int k = 1; k <= 3; ++k) {
+    // 初始化角标标记函数
+    int stand[n + 1];
+    for (int i = 1; i <= n; ++i) {
+        stand[i] = i;
+    }
+
+    // 消元过程，采用完全主元素进行优化
+    for (int k = 1; k <= n - 1; ++k) {
+
+        // 找到最大元素所在的行列
         double max = numeric_limits<double>::lowest();
         int max_row = 0;
         int max_col = 0;
-        for (int i = k; i <= 4; ++i) {
-            for (int j = k; j <= 4; ++j) {
-                if (abs(a[k - 1][i][j]) > max) {
-                    max = abs(a[k - 1][i][j]);
+        for (int i = k; i <= n; ++i) {
+            for (int j = k; j <= n; ++j) {
+                if (abs(a[i][j]) > max) {
+                    max = abs(a[i][j]);
                     max_row = i;
                     max_col = j;
                 }
             }
         }
 
-        for (int j = 1; j < 6; ++j) {
-            swap(a[k - 1][k][j], a[k - 1][max_row][j]);
+        //交换行列
+        for (int j = 1; j <= n + 1; ++j) {
+            swap(a[k][j], a[max_row][j]);
+        }
+        for (int i = 1; i <= n; ++i) {
+            swap(a[i][k], a[i][max_col]);
         }
 
-        for (int i = 1; i < 5; ++i) {
-            swap(a[k - 1][i][k], a[k - 1][i][max_col]);
-        }
-
+        // 交换角标标记函数
         swap(stand[k], stand[max_col]);
 
-        for (int i = k + 1; i <= 4; ++i) {
-            for (int j = k + 1; j <= 5; ++j) {
-                l[i][k] = a[k - 1][i][k] / a[k - 1][k][k];
-                a[k][i][j] = a[k - 1][i][j] - l[i][k] * a[k - 1][k][j];
+        // 实际的消元过程
+        for (int i = k + 1; i <= n; ++i) {
+            for (int j = k + 1; j <= n + 1; ++j) {
+                l[i][k] = a[i][k] / a[k][k];
+                a[i][j] = a[i][j] - l[i][k] * a[k][j];
             }
         }
     }
 
-    double x[5];
-    x[4] = a[3][4][5] / a[3][4][4];
-    for (int k = 3; k >= 1; --k) {
+    // 回代过程
+    double x[n + 1];
+    x[n] = a[n][n + 1] / a[n][n];
+    for (int k = n - 1; k >= 1; --k) {
         double sum = 0;
-        for (int j = k + 1; j <= 4; ++j) {
-            sum += a[k - 1][k][j] * x[j];
+        for (int j = k + 1; j <= n; ++j) {
+            sum += a[k][j] * x[j];
         }
-        x[k] = (a[k - 1][k][5] - sum) / a[k - 1][k][k];
+        x[k] = (a[k][n + 1] - sum) / a[k][k];
     }
 
-    for (int i = 1; i <= 4; ++i) {
+    for (int i = 1; i <= n; ++i) {
         cout << x[stand[i]] << endl;
     }
 

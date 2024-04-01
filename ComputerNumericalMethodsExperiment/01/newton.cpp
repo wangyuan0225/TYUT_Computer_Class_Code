@@ -4,7 +4,7 @@
   * @BelongsProject : 01
   * @File           : newton.cpp
   * @Author         : yuan wang (wy0225)
-  * @Brief          : None
+  * @Brief          : 牛顿迭代法求解一次方程
   * @Attention      : None
   * @Date           : 2024/3/14 13:40
   * @Version        : 1.0

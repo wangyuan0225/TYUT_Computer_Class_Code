@@ -206,6 +206,72 @@ build 3499.cpp.exe: CXX_EXECUTABLE_LINKER__3499.2ecpp_Debug CMakeFiles/3499.cpp.
   TARGET_PDB = 3499.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 3526.cpp
+
+
+#############################################
+# Order-only phony target for 3526.cpp
+
+build cmake_object_order_depends_target_3526.cpp: phony || CMakeFiles/3526.cpp.dir
+
+build CMakeFiles/3526.cpp.dir/3526.cpp.obj: CXX_COMPILER__3526.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/LQ/3526.cpp || cmake_object_order_depends_target_3526.cpp
+  DEP_FILE = CMakeFiles\3526.cpp.dir\3526.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3526.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\3526.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3526.cpp
+
+
+#############################################
+# Link the executable 3526.cpp.exe
+
+build 3526.cpp.exe: CXX_EXECUTABLE_LINKER__3526.2ecpp_Debug CMakeFiles/3526.cpp.dir/3526.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3526.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3526.cpp.exe
+  TARGET_IMPLIB = lib3526.cpp.dll.a
+  TARGET_PDB = 3526.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3527.cpp
+
+
+#############################################
+# Order-only phony target for 3527.cpp
+
+build cmake_object_order_depends_target_3527.cpp: phony || CMakeFiles/3527.cpp.dir
+
+build CMakeFiles/3527.cpp.dir/3527.cpp.obj: CXX_COMPILER__3527.2ecpp_unscanned_Debug D$:/C&Java/TYUT_Computer_Class_Code/LQ/3527.cpp || cmake_object_order_depends_target_3527.cpp
+  DEP_FILE = CMakeFiles\3527.cpp.dir\3527.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3527.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\3527.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3527.cpp
+
+
+#############################################
+# Link the executable 3527.cpp.exe
+
+build 3527.cpp.exe: CXX_EXECUTABLE_LINKER__3527.2ecpp_Debug CMakeFiles/3527.cpp.dir/3527.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3527.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3527.cpp.exe
+  TARGET_IMPLIB = lib3527.cpp.dll.a
+  TARGET_PDB = 3527.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 4124.cpp
 
 
@@ -373,6 +439,10 @@ build 3492.cpp: phony 3492.cpp.exe
 
 build 3499.cpp: phony 3499.cpp.exe
 
+build 3526.cpp: phony 3526.cpp.exe
+
+build 3527.cpp: phony 3527.cpp.exe
+
 build 4124.cpp: phony 4124.cpp.exe
 
 build 4985.cpp: phony 4985.cpp.exe
@@ -389,7 +459,7 @@ build test.cpp: phony test.cpp.exe
 #############################################
 # Folder: D:/C&Java/TYUT_Computer_Class_Code/LQ/cmake-build-debug
 
-build all: phony 0001.cpp.exe 0002.cpp.exe 3491.cpp.exe 3492.cpp.exe 3499.cpp.exe 4124.cpp.exe 4985.cpp.exe 5003.cpp.exe test.cpp.exe
+build all: phony 0001.cpp.exe 0002.cpp.exe 3491.cpp.exe 3492.cpp.exe 3499.cpp.exe 3526.cpp.exe 3527.cpp.exe 4124.cpp.exe 4985.cpp.exe 5003.cpp.exe test.cpp.exe
 
 # =============================================================================
 # Built-in targets
