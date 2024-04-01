@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : soldiersInFormation.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : On a playground divided into a grid, n soldiers are scattered on the

@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : subsetSumsProblem.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : Given a set S={x1,x2,…,xn} of positive integers and a positive

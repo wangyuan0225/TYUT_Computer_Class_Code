@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : trueBackpackStory.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : The 0-1 knapsack problem is a classical dynamic programming problem.

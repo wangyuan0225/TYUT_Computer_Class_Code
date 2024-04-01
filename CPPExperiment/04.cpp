@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : 04.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : （1）编写程序，将字符串“文件写入正确”用二进制方式写入到文件data.dat中，并用
