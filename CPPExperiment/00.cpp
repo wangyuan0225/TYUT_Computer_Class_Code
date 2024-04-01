@@ -1,12 +1,15 @@
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 
-
 int MAX1(int a, int b);
+
 int MAX1(int a, int b, int c);
+
 double MAX1(double a, double b);
+
 double MAX1(double a, double b, double c);
 
 int main() {

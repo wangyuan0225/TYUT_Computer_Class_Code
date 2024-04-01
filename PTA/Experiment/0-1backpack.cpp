@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : 0-1backpack.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : 给定n(n<=100)种物品和一个背包。物品i的重量是wi(wi<=100)，价值为vi(vi<=100)，

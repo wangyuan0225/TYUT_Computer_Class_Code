@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : singleSourceShortestPath.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : Compute the shortest path lengths from a given positive weight

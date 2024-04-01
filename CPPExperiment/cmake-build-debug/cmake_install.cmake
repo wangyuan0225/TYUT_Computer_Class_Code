@@ -1,4 +1,4 @@
-# Install script for directory: D:/C&Java/TYUT_Computer_Class_Code/Experiment
+# Install script for directory: D:/C&Java/TYUT_Computer_Class_Code/CPPExperiment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

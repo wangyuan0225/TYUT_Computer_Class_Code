@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jo4r0m"
-      binary: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jo4r0m"
+      source: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/CPPExperiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jo4r0m"
+      binary: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/CPPExperiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jo4r0m"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -233,8 +233,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-du5sbr"
-      binary: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/Experiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-du5sbr"
+      source: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/CPPExperiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-du5sbr"
+      binary: "D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/PTA/CPPExperiment/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-du5sbr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"

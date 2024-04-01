@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
-  * @BelongsProject : Experiment
+  * @BelongsProject : CPPExperiment
   * @File           : test_static&count.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
@@ -11,6 +11,7 @@
   ****************************************************************************************
   */
 #include <iostream>
+
 using namespace std;
 
 class Test {
@@ -20,15 +21,19 @@ public:
     int d;
     const int b;
     static int a;
+
     Test(int i);
+
     static int a_();
+
     int b_() const;
+
     int d_();
 };
 
 const int c = 1;
 
-Test::Test(int i): b(i) {
+Test::Test(int i) : b(i) {
 
 }
 

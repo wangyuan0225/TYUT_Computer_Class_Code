@@ -1,6 +1,6 @@
 /****************************************************************************************
  * Copyright © Taiyuan University of Technology. Ltd. 1902-2023. All rights reserved.
- * @BelongsProject: Experiment
+ * @BelongsProject: CPPExperiment
  * @File: 0-1backpack.cpp
  * @Author: Yuan Wang (wy0225)
  * @Brief: Given n (n<=100) items and a backpack. The weight of item i is wi (wi<=100),
