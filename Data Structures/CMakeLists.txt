@@ -16,5 +16,6 @@ endforeach ()
 file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
 foreach (file ${files})
     get_filename_component(name ${file} NAME)
-    add_executable(${name} ${file})
+    add_executable(${name} ${file}
+            data_structures.h)
 endforeach ()
