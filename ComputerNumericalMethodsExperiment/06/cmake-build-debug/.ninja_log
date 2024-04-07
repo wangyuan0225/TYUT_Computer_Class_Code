@@ -1,0 +1,11 @@
+# ninja log v5
+5	499	7332967811408584	CMakeFiles/least-squares.cpp.dir/least-squares.cpp.obj	ca267c44f2b71b26
+499	671	7332967813078202	least-squares.cpp.exe	9a01730820839c05
+4	517	7333003414644258	CMakeFiles/least-squares.cpp.dir/least-squares.cpp.obj	ca267c44f2b71b26
+518	690	7333003416313070	least-squares.cpp.exe	9a01730820839c05
+4	542	7333005896406848	CMakeFiles/least-squares.cpp.dir/least-squares.cpp.obj	ca267c44f2b71b26
+543	733	7333005898263419	least-squares.cpp.exe	9a01730820839c05
+5	507	7333006161440070	CMakeFiles/least-squares.cpp.dir/least-squares.cpp.obj	ca267c44f2b71b26
+508	684	7333006163146266	least-squares.cpp.exe	9a01730820839c05
+5	538	7333006269721345	CMakeFiles/least-squares.cpp.dir/least-squares.cpp.obj	ca267c44f2b71b26
+540	720	7333006271471014	least-squares.cpp.exe	9a01730820839c05

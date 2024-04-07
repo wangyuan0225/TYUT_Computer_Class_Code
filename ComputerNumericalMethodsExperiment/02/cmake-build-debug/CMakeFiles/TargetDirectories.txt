@@ -1,0 +1,6 @@
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/LU-decomposition.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/chasing.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/gauss.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/gaussMainElement.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

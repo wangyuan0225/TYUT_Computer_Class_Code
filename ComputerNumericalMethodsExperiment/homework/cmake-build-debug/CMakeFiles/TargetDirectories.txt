@@ -1,0 +1,4 @@
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/homework/cmake-build-debug/CMakeFiles/newton01.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/homework/cmake-build-debug/CMakeFiles/secant.cpp.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# ninja log v5
+399	512	7320978899278163	dichotomy.cpp.exe	217d29a50c60cb6e
+407	522	7320988828267067	newton.cpp.exe	8ca35d1c09e83b55
+3	399	7320978898179083	CMakeFiles/dichotomy.cpp.dir/dichotomy.cpp.obj	e636d4b14bb778fa
+3	162	7321173298094963	CMakeFiles/test.c.dir/test.c.obj	70df4fc9dac9e0c4
+3	412	7320976136734019	CMakeFiles/iterative.cpp.dir/iterative.cpp.obj	8f42b7babbe56aba
+412	527	7320976137877448	iterative.cpp.exe	3ef5c3d5bbc9b42b
+3	406	7320988827155100	CMakeFiles/newton.cpp.dir/newton.cpp.obj	9e359c8dfefa4dc7
+163	335	7321173299773852	test.c.exe	d97269eeb1852a42
+4	527	7322881425589463	CMakeFiles/secant.cpp.dir/secant.cpp.obj	151ffaf4c51710c9
+528	661	7322881426879535	secant.cpp.exe	a2f713899fc29c15
+3	395	7322908645733131	CMakeFiles/newton01.cpp.dir/newton01.cpp.obj	eff94f2f761d7ffd
+396	508	7322908646818689	newton01.cpp.exe	5a6bbd1410bd38f5
