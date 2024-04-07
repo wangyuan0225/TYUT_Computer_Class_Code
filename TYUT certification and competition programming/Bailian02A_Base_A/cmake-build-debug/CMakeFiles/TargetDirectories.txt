@@ -1,8 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/A.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/B.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/C_D.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/E.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/F.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/G.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/TYUT certification and competition programming/Practice of C programming language/Bailian02A_Base_A/cmake-build-debug/CMakeFiles/rebuild_cache.dir

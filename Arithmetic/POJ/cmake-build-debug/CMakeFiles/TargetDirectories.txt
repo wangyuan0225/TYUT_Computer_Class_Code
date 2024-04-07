@@ -1,8 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1163.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1163N.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1163NN.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1222.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1458.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/1664.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/POJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir

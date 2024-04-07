@@ -1,3 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/Data Structures/cmake-build-debug/CMakeFiles/SqList.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Data Structures/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/Data Structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
