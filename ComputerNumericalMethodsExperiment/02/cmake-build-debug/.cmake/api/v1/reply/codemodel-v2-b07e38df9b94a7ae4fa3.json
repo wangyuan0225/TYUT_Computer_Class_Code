@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LU-decomposition.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LU-decomposition.cpp-Debug-ecd865353874f980a6ad.json",
+					"name" : "LU-decomposition.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chasing.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chasing.cpp-Debug-2e069f174175f1059645.json",
+					"name" : "chasing.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gauss.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gauss.cpp-Debug-3609408fad37cd7b0825.json",
+					"name" : "gauss.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gaussMainElement.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gaussMainElement.cpp-Debug-09f8d58b38933c65acd7.json",
+					"name" : "gaussMainElement.cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02/cmake-build-debug",
+		"source" : "D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

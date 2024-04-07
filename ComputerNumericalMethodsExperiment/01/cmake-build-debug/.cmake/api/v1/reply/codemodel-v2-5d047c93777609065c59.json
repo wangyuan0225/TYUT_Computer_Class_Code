@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dichotomy.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dichotomy.cpp-Debug-13f88ae379808947f6ab.json",
+					"name" : "dichotomy.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "iterative.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-iterative.cpp-Debug-d2dd8edc203561276e3e.json",
+					"name" : "iterative.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newton.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newton.cpp-Debug-2eaa6d9d31333315ef5d.json",
+					"name" : "newton.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newton01.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newton01.cpp-Debug-4e984d0835ef41433668.json",
+					"name" : "newton01.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "secant.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-secant.cpp-Debug-279c037a65da86612150.json",
+					"name" : "secant.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test.c-Debug-eb8b7a46a503c207cc5c.json",
+					"name" : "test.c",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/01/cmake-build-debug",
+		"source" : "D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
