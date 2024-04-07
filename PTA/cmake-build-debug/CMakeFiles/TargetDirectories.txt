@@ -1,9 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/count.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/fibonacciSequence.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/generate.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/gettingChange1.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/gettingChange2.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/multiSegmentDiagrams.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/travelingSalesman.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/PTA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

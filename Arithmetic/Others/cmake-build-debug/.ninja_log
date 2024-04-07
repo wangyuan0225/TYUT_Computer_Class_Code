@@ -1,7 +1,0 @@
-# ninja log v5
-6	348	7131702550234086	CMakeFiles/Hanoi_Tower.cpp.dir/Hanoi_Tower.cpp.obj	25097eb4bb55407
-348	462	7131702551348861	Hanoi_Tower.cpp.exe	5b553dec245e047
-1	3067	7132702615448216	CMakeFiles/Expression_Value.cpp.dir/Expression_Value.cpp.obj	d3443677e6a37c90
-3067	4070	7132702625458306	Expression_Value.cpp.exe	a491061c7993294
-3	287	7132702843297704	CMakeFiles/Expression_Value.cpp.dir/Expression_Value.cpp.obj	d3443677e6a37c90
-287	402	7132702844394494	Expression_Value.cpp.exe	a491061c7993294

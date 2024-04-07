@@ -1,3 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/03/cmake-build-debug/CMakeFiles/gauss-seidel.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/03/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/ComputerNumericalMethodsExperiment/03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

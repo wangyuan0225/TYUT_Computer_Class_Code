@@ -1,5 +1,0 @@
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/CMakeFiles/Expression_Value.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/CMakeFiles/Hanoi_Tower.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/CMakeFiles/N_Queens_Problem.cpp.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/C&Java/TYUT_Computer_Class_Code/Arithmetic/Others/cmake-build-debug/CMakeFiles/rebuild_cache.dir
