@@ -44,7 +44,7 @@ int main() {
 
     // 3. «Û∆Ω∑ΩŒÛ≤Ó
     double square_error = 0;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 1; i < n; ++i) {
         double predicted_y = a0 + a1 * x[i];
         double error = predicted_y - y[i];
         square_error += error * error;
