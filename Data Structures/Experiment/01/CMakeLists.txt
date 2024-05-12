@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-get_filename_component(ProjectId ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+get_filename_component(ProjectId .. NAME)
 string(REPLACE " " "_" ProjectId ${ProjectId})
 project(${ProjectId} C CXX)
 
@@ -16,6 +16,5 @@ endforeach ()
 file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
 foreach (file ${files})
     get_filename_component(name ${file} NAME)
-    add_executable(${name} ${file}
-            data_structures.h)
+    add_executable(${name} ${file})
 endforeach ()
