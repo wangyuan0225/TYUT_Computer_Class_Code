@@ -20,5 +20,6 @@ foreach (file ${files})
             data_structures.hpp
             SqList.hpp
             LinkList.hpp
+            String.hpp
     )
 endforeach ()
