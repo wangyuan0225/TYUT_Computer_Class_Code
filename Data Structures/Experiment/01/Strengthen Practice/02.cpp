@@ -12,7 +12,7 @@
   */
 
 #include <iostream>
-#include "LinkList.hpp"
+#include "../../../LinkList.hpp"
 
 using namespace std;
 
@@ -49,6 +49,6 @@ int main() {
     }
     pc->next = pa ? pa : pb;
     TraverseList(Lc);
-    DestroyList(Lc);// 注意这里只删除链表 C 即可，因为 C 包含了 A B 中的所有元素了，否则会导致重复删除而无法正常退出
+    DestroyList(Lc); // 注意这里只删除链表 C 即可，因为 C 包含了 A B 中的所有元素了，否则会导致重复删除而无法正常退出
     return 0;
 }

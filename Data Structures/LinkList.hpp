@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef STRENGTHEN_PRACTICE_LINKLIST_HPP
-#define STRENGTHEN_PRACTICE_LINKLIST_HPP
+#ifndef DATA_STRUCTURES_LINKLIST_HPP
+#define DATA_STRUCTURES_LINKLIST_HPP
 
 #include <iostream>
 #include "data_structures.hpp"
@@ -198,4 +198,4 @@ void TraverseList(LinkList L) {
     cout << endl;
 }
 
-#endif //STRENGTHEN_PRACTICE_LINKLIST_HPP
+#endif //DATA_STRUCTURES_LINKLIST_HPP

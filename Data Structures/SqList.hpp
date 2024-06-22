@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef STRENGTHEN_PRACTICE_SQLIST_HPP
-#define STRENGTHEN_PRACTICE_SQLIST_HPP
+#ifndef DATA_STRUCTURES_SQLIST_HPP
+#define DATA_STRUCTURES_SQLIST_HPP
 
 #include <iostream>
 #include "data_structures.hpp"
@@ -173,4 +173,4 @@ void TraverseList(SqList L) {
     cout << endl;
 }
 
-#endif //STRENGTHEN_PRACTICE_SQLIST_HPP
+#endif //DATA_STRUCTURES_SQLIST_HPP
