@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
-  * @BelongsProject : Strengthen_Practice
+  * @BelongsProject : Experiment
   * @File           : LinkList.hpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef DATA_STRUCTURES_LINKLIST_HPP
-#define DATA_STRUCTURES_LINKLIST_HPP
+#ifndef EXPERIMENT_LINKLIST_HPP
+#define EXPERIMENT_LINKLIST_HPP
 
 #include <iostream>
 #include "data_structures.hpp"
@@ -198,4 +198,4 @@ void TraverseList(LinkList L) {
     cout << endl;
 }
 
-#endif //DATA_STRUCTURES_LINKLIST_HPP
+#endif //EXPERIMENT_LINKLIST_HPP

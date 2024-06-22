@@ -1,8 +1,8 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
-  * @BelongsProject : Strengthen_Practice
-  * @File           : SqList.h
+  * @BelongsProject : Experiment
+  * @File           : SqList.hpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
   * @Attention      : None
@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef DATA_STRUCTURES_SQLIST_HPP
-#define DATA_STRUCTURES_SQLIST_HPP
+#ifndef EXPERIMENT_SQLIST_HPP
+#define EXPERIMENT_SQLIST_HPP
 
 #include <iostream>
 #include "data_structures.hpp"
@@ -173,4 +173,4 @@ void TraverseList(SqList L) {
     cout << endl;
 }
 
-#endif //DATA_STRUCTURES_SQLIST_HPP
+#endif //EXPERIMENT_SQLIST_HPP

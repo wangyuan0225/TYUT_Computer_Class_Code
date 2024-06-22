@@ -16,10 +16,5 @@ endforeach ()
 file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp")
 foreach (file ${files})
     get_filename_component(name ${file} NAME)
-    add_executable(${name} ${file}
-            ../../../data_structures.hpp
-            ../../../SqList.hpp
-            ../../../LinkList.hpp
-            ../../../String.hpp
-            ../../../SqStack.hpp)
+    add_executable(${name} ${file})
 endforeach ()

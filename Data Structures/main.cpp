@@ -6,30 +6,23 @@
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
   * @Attention      : None
-  * @Date           : 2024/6/22 11:05
+  * @Date           : 2024/6/22 11:31
   * @Version        : 1.0
   ****************************************************************************************
   */
 
 #include <iostream>
-#include "../../SqStack.hpp"
+#include "data_structures.hpp"
+#include "LinkList.hpp"
+#include "LinkStack.hpp"
+#include "SqList.hpp"
+#include "SqStack.hpp"
+#include "String.hpp"
+#include "SqQueue.hpp"
 
 using namespace std;
 
 int main() {
-    SqStack s;
-    InitStack(s);
-    SElemType e;
-    for (int i = 0; i < 10; ++i) {
-        Push(s, i);
-    }
-    StackTraverse(s);
-    cout << GetTop(s) << endl;
-    while (!StackEmpty(s)) {
-        Pop(s, e);
-        cout << e << " ";
-    }
-
 
     return 0;
 }

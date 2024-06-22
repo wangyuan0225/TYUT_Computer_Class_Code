@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
-  * @BelongsProject : DATA_STRUCTURES
+  * @BelongsProject : Experiment
   * @File           : String.hpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef DATA_STRUCTURES_STRING_HPP
-#define DATA_STRUCTURES_STRING_HPP
+#ifndef EXPERTIMENT_STRING_HPP
+#define EXPERTIMENT_STRING_HPP
 
 #include <iostream>
 #include <cstring>
@@ -62,4 +62,4 @@ Status StrAssign(SString &T, char *chars) {
     return OK;
 }
 
-#endif //DATA_STRUCTURES_STRING_HPP
+#endif //EXPERTIMENT_STRING_HPP

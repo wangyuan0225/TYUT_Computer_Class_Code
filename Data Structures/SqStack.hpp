@@ -11,8 +11,8 @@
   ****************************************************************************************
   */
 
-#ifndef DATA_STRUCTURES_SQSTACK_HPP
-#define DATA_STRUCTURES_SQSTACK_HPP
+#ifndef EXPERIMENT_SQSTACK_HPP
+#define EXPERIMENT_SQSTACK_HPP
 
 #include <iostream>
 #include "data_structures.hpp"
@@ -92,11 +92,14 @@ Status Pop(SqStack &S, SElemType &e) {
     return OK;
 }
 
-Status StackTraverse(SqStack S) {
+void StackTraverse(SqStack S) {
+    if (S.base == nullptr) {
+        return;
+    }
     for (SElemType *p = S.base; p < S.top; p++) {
         cout << *p << " ";
     }
     cout << endl;
-    return OK;
 }
-#endif //DATA_STRUCTURES_SQSTACK_HPP
+
+#endif //EXPERIMENT_SQSTACK_HPP
