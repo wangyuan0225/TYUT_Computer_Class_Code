@@ -1,18 +1,21 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
-  * @BelongsProject : Data_Structures
-  * @File           : SqList.cpp
+  * @BelongsProject : Experiment
+  * @File           : SqList.hpp
   * @Author         : yuan wang (wy0225)
-  * @Brief          : 线性表——顺序表
+  * @Brief          : None
   * @Attention      : None
-  * @Date           : 2024/4/1 20:59
+  * @Date           : 2024/5/10 9:35
   * @Version        : 1.0
   ****************************************************************************************
   */
 
+#ifndef EXPERIMENT_SQLIST_HPP
+#define EXPERIMENT_SQLIST_HPP
+
 #include <iostream>
-#include "data_structures.h"
+#include "data_structures.hpp"
 
 using namespace std;
 
@@ -31,34 +34,6 @@ struct SqList {
  * @param L
  * @return 状态
  */
-Status InitList(SqList &L);
-
-Status DestroyList(SqList &L);
-
-Status ClearList(SqList &L);
-
-bool ListEmpty(SqList L);
-
-int ListLength(SqList L);
-
-Status GetElem(SqList L, int i, ElemType &e);
-
-int LocateElem(SqList L, ElemType e);
-
-Status PriorElem(SqList L, ElemType cur_e, ElemType &pre_e);
-
-Status NextElem(SqList L, ElemType cur_e, ElemType &next_e);
-
-Status ListInsert(SqList &L, int i, ElemType e);
-
-Status ListDelete(SqList &L, int i);
-
-void TraverseList(SqList L);
-
-int main() {
-
-    return 0;
-}
 
 Status InitList(SqList &L) {
     L.elem = new ElemType[MAXSIZE];
@@ -197,3 +172,5 @@ void TraverseList(SqList L) {
     }
     cout << endl;
 }
+
+#endif //EXPERIMENT_SQLIST_HPP

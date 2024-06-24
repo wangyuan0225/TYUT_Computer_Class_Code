@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.24)
 
-get_filename_component(ProjectId Experiment NAME)
+get_filename_component(ProjectId .. NAME)
 string(REPLACE " " "_" ProjectId ${ProjectId})
 project(${ProjectId} C CXX)
 

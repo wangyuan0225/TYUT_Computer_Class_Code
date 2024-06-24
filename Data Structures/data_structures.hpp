@@ -1,7 +1,7 @@
 /**
   ****************************************************************************************
   * Copyright © Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
-  * @BelongsProject : Data_Structures
+  * @BelongsProject : Experiment
   * @File           : data_structures.h
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
@@ -11,12 +11,12 @@
   ****************************************************************************************
   */
 
-#ifndef DATA_STRUCTURES_DATA_STRUCTURES_H
-#define DATA_STRUCTURES_DATA_STRUCTURES_H
+#ifndef EXPERIMENT_DATA_STRUCTURES_HPP
+#define EXPERIMENT_DATA_STRUCTURES_HPP
 
 #define OK 1
 #define ERROR 0
 #define OVERFLOW -2
 typedef int Status;
 
-#endif //DATA_STRUCTURES_DATA_STRUCTURES_H
+#endif //EXPERIMENT_DATA_STRUCTURES_HPP
