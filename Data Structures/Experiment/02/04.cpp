@@ -2,30 +2,30 @@
   ****************************************************************************************
   * Copyright ? Taiyuan University of Technology. Ltd. 1902-2024. All rights reserved.
   * @BelongsProject : 02
-  * @File           : 03.cpp
+  * @File           : 04.cpp
   * @Author         : yuan wang (wy0225)
   * @Brief          : None
   * @Attention      : None
-  * @Date           : 2024/6/22 15:29
+  * @Date           : 2024/6/22 18:46
   * @Version        : 1.0
   ****************************************************************************************
   */
 
 #include <iostream>
-#include "../../SqQueue.hpp"
+#include "../../LinkQueue.hpp"
 
 using namespace std;
 
 int main() {
     int choose, flag = 0;
     int num;//进队列个数
-    QElemType v, t;
-    SqQueue Q;
-    cout << "1.循环队列的初始化" << endl;
-    cout << "2.获取循环队列长度" << endl;
-    cout << "3.入循环队列" << endl;
-    cout << "4.出循环队列" << endl;
-    cout << "5.遍历循环队列" << endl;
+    ElemType v, t;
+    LinkQueue Q;
+    cout << "1.链队列的初始化" << endl;
+    cout << "2.获取链队列长度" << endl;
+    cout << "3.入链队列" << endl;
+    cout << "4.出链队列" << endl;
+    cout << "5.遍历链队列" << endl;
     cout << "0.退出" << endl;
     choose = -1;
     while (choose != 0) {
