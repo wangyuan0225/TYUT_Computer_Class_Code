@@ -17,17 +17,16 @@
 using namespace std;
 
 int main() {
-    BSTree T;
-    InitBSTree(T);
-    int n, m;
-    cin >> n;
-    for (int i = 0; i < n; ++i) {
-        int temp;
-        cin >> temp;
-        InsertBST(T, temp);
-    }
-    cin >> m;
-    SearchBST(T, m)==NULL?cout<<"No":cout<<"Yes";
-    return 0;
-
+	BSTree T;
+	InitBSTree(T);
+	int n, m;
+	cin >> n;
+	for (int i = 0; i < n; ++i) {
+		int temp;
+		cin >> temp;
+		InsertBST(T, temp);
+	}
+	cin >> m;
+	SearchBST(T, m) == NULL ? cout << "No" : cout << "Yes";
+	return 0;
 }

@@ -29,7 +29,7 @@ int main() {
     printf("此二叉树的后序遍历序列是:");
     PostOrderTraverse(T);
     printf("\n");
-    printf("这棵树叶子结点有%d个\n", NodeCount(T));
+    printf("这棵树结点有%d个\n", NodeCount(T));
     printf("这棵树的深度为:%d\n", BiTreeDepth(T));
     system("pause");
     return 0;

@@ -103,9 +103,9 @@ void CreatList_R(LinkList L, int n) {
     int i;
     LinkList r, p;
     r = L;
+    printf("请输入元素：\n");
     for (i = 0; i < n; ++i) {
         p = (LinkList) malloc(sizeof(LNode));
-        printf("请输入元素：\n");
         scanf("%d", &(p->data));
         p->next = NULL;
         r->next = p;
